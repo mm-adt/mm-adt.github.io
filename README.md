@@ -1,37 +1,3 @@
-## Welcome to GitHub Pages
+## mm-ADT: A Multi-Model Abstract Data Type
 
-You can use the [editor on GitHub](https://github.com/mm-adt/mm-adt.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mm-adt/mm-adt.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+mm-ADT is a distributed computing virtual machine aimed at integrating data storage systems, processing engines, and query languages. A collection of language-agnostic interfaces is made available to each technology community and when a valid implementaiton of said interfaces is created, the interfacing component is considered mm-ADT compliant and can faithfully interoperate with any other mm-ADT compliant component. In this manner, query language developers can develop languages irrespective of the underlying storage system that will ultimately be manipulated by the language. Similarly, processing engine developers can have their processors programmed by any query language for data stored in any storage system. Finally, storage systems (such as databases) immediately support any all mm-ADT compliant query languages and processors in support of the varigated requirements of their end users' data processing requirements.
