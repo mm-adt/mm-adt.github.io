@@ -1,3 +1,8 @@
 <html>
-<head><link rel="favicon" type="image/x-icon" href="favicon.ico"></head>
-<body>
+	<head>
+		<link rel="favicon" type="image/x-icon" href="favicon.ico">
+		{% if site.google_analytics and jekyll.environment == 'production' %}
+		{% include analytics.html %}
+		{% endif %}
+	</head>
+	<body>
