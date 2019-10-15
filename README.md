@@ -22,29 +22,29 @@ The mm-ADT VM is the integration point of query languages, processors, and stora
 
 ### Query Languages
 
-* SQL: the most popular relational query languages.
-* GraphQL: a path-based query language for tree-structured data.
-* Gremlin: a traversal query language for graph-structured data.
-* GQL: a hybrid relational/traversal query language for graph structured data.
-* SPARQL: a pattern-matching query language for triple and quad-based data.
+* [ISO SQL](https://en.wikipedia.org/wiki/SQL): the most popular relational query languages.
+* [Facebook GraphQL](http://graphql.org/): a path-based query language for tree-structured data.
+* [TinkerPop Gremlin](http://tinkerpop.apache.org/gremlin.html): a traversal query language for graph-structured data.
+* [ISO GQL](http://www.gqlstandards.org/): a hybrid relational/traversal query language for graph structured data.
+* [W3C SPARQL](http://www.w3.org/TR/sparql11-query/): a pattern-matching query language for triple and quad-based data.
 
 ### Processing Engines
 
-* ReactiveX: A reactive stream processor for single-machine, multi-threaded data processing.
-* Apache Spark: An batch analytics processor for cluster-oriented computing.
-* Apache Flink: A near-time analytics processor for cluster-oriented computing.
-* Apache Beam: A unification framework for popular stream processors.
-* Apache Hadoop: A batch analytics processor for cluster-oriented computing.
-* Lightbend Akka: A message-passing, co-location processor for distributed computing.
+* [ReactiveX](http://reactivex.io/): A reactive stream processor for single-machine, multi-threaded data processing.
+* [Apache Spark](http://spark.apache.org): An batch analytics processor for cluster-oriented computing.
+* [Apache Flink](http://flink.apache.org): A near-time analytics processor for cluster-oriented computing.
+* [Apache Beam](http://beam.apache.org): A unification framework for popular stream processors.
+* [Apache Hadoop](http://hadoop.apache.org): A batch analytics processor for cluster-oriented computing.
+* [Lightbend Akka](http://akka.io): A message-passing, co-location processor for distributed computing.
 
 ### Storage Systems
 
-* Apache Cassandra: A master-less, wide-column distributed database.
-* Apache HBase: A wide-column distributed database for the Apache Hadoop ecosystem.
-* Apache Ignite: A distributed key-value/relational database.
-* Apache TinkerPop: A unification framework for graph databases and processors.
-* MongoDB: A distributed, document-oriented database in support of JSON storage and querying.
-* RocksDB: A foundational data storage system based on key/value semantics.
+* [Apache Cassandra](http://cassandra.apache.org): A master-less, wide-column distributed database.
+* [Apache HBase](http://hbase.apache.org): A wide-column distributed database for the Apache Hadoop ecosystem.
+* [Apache Ignite](http://ignite.apache.org): A distributed key-value/relational database.
+* [Apache TinkerPop](http://tinkerpop.apache.org): A unification framework for graph databases and processors.
+* [MongoDB](https://www.mongodb.com/): A distributed, document-oriented database in support of JSON storage and querying.
+* [Facebook RocksDB](https://rocksdb.org/): A foundational data storage system based on key/value semantics.
 
 
 ## Licensing
