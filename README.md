@@ -1,16 +1,16 @@
 # mm-ADT
 ## A Multi-Model Abstract Data Type
 
-<img src="https://raw.githubusercontent.com/mm-adt/mm-adt.github.io/master/images/mm-adt-logo.png" alt="mm-ADT" width="165" />
+<img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="165" />
 
-<a href="https://github.com/mm-adt"><img src="https://raw.githubusercontent.com/mm-adt/mm-adt.github.io/master/images/github-icon.png" alt="GitHub" width="35" /></a>
-<a href="http://twitter.com/_mmadt"><img src="https://raw.githubusercontent.com/mm-adt/mm-adt.github.io/master/images/twitter-icon.png" alt="Twitter" width="35" /></a>
+<a href="https://github.com/mm-adt"><img src="assets/images/github-icon.png" alt="GitHub" width="35" /></a>
+<a href="http://twitter.com/_mmadt"><img src="assets/images/twitter-icon.png" alt="Twitter" width="35" /></a>
 
 mm-ADT is a distributed virtual machine aimed at integrating the plethora of open source storage systems, processing engines, and query languages. This is accomplished through a set of three language-agnostic interface. When a valid implementation of a respective interface is created, the interfacing component is considered _mm-ADT compliant_ and is able to communicate with any other mm-ADT compliant component. In this manner, query language developers can develop languages irrespective of the underlying storage system that will ultimately be manipulated by the language. Similarly, processing engines can be programmed by any query language and for use over any any storage system. Finally, storage systems (such as databases) automatically support all mm-ADT compliant query languages and processors.
 
 From relational to graph query language, real-time to batch analytics, and from single machine to cluster-oriented storage systems, mm-ADT enables data system engineers to tailor their data technologies architecture to their specific application requirements.
 
-<img src="https://raw.githubusercontent.com/mm-adt/mm-adt.github.io/master/images/lang-proc-store.png" alt="mm-ADT Components" width="600" />
+<img src="assets/images/lang-proc-store.png" alt="mm-ADT Components" width="600" />
 
 ## Mission
 
