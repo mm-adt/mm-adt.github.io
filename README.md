@@ -3,8 +3,8 @@
 
 <img src="https://raw.githubusercontent.com/mm-adt/mm-adt.github.io/master/images/mm-adt-logo.png" alt="mm-ADT" width="165" />
 
-<a href="https://github.com/mm-adt"><img src="https://raw.githubusercontent.com/mm-adt/mm-adt.github.io/master/images/github-icon.png" alt="GitHub" width="75" /></a>
-<a href="http://twitter.com/_mmadt"><img src="https://raw.githubusercontent.com/mm-adt/mm-adt.github.io/master/images/twitter-icon.png" alt="Twitter" width="75" /></a>
+<a href="https://github.com/mm-adt"><img src="https://raw.githubusercontent.com/mm-adt/mm-adt.github.io/master/images/github-icon.png" alt="GitHub" width="35" /></a>
+<a href="http://twitter.com/_mmadt"><img src="https://raw.githubusercontent.com/mm-adt/mm-adt.github.io/master/images/twitter-icon.png" alt="Twitter" width="35" /></a>
 
 mm-ADT is a distributed computing virtual machine aimed at integrating data storage systems, processing engines, and query languages. A collection of language-agnostic interfaces is made available to each technology community and when a valid implementation of said interfaces is created, the interfacing component is considered _mm-ADT compliant_ and can communicate with any other mm-ADT compliant component. In this manner, query language developers can develop languages irrespective of the underlying storage system that will ultimately be manipulated by the language. Similarly, processing engine developers can have their processors programmed by any query language for data stored in any storage system. Finally, storage systems (such as databases) immediately support any all mm-ADT compliant query languages and processors in support of the variegated requirements of their end users' data processing requirements.
 
