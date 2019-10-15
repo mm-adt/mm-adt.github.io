@@ -1,5 +1,5 @@
-# mm-ADT
-## A Multi-Model Abstract Data Type
+## mm-ADT
+### A Multi-Model Abstract Data Type
 
 <img src="https://raw.githubusercontent.com/mm-adt/mm-adt.github.io/master/images/mm-adt-logo.png" alt="mm-ADT" width="150" />
 
