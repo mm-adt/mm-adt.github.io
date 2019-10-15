@@ -30,20 +30,20 @@ The mm-ADT VM is the integration point of query languages, processors, and stora
 
 ### Processing Engines
 
-* [ReactiveX](http://reactivex.io/): A reactive stream processor for single-machine, multi-threaded data processing.
+* [ReactiveX](http://reactivex.io/): A reactive stream processor for multi-threaded data processing.
 * [Apache Spark](http://spark.apache.org): An batch analytics processor for cluster-oriented computing.
 * [Apache Flink](http://flink.apache.org): A near-time analytics processor for cluster-oriented computing.
 * [Apache Beam](http://beam.apache.org): A unification framework for popular stream processors.
 * [Apache Hadoop](http://hadoop.apache.org): A batch analytics processor for cluster-oriented computing.
-* [Lightbend Akka](http://akka.io): A message-passing, co-location processor for distributed computing.
+* [Lightbend Akka](http://akka.io): A message-passing processor for distributed co-located computing.
 
 ### Storage Systems
 
 * [Apache Cassandra](http://cassandra.apache.org): A master-less, wide-column distributed database.
-* [Apache HBase](http://hbase.apache.org): A wide-column distributed database for the Apache Hadoop ecosystem.
+* [Apache HBase](http://hbase.apache.org): A wide-column distributed database built on Hadoop's HDFS.
 * [Apache Ignite](http://ignite.apache.org): A distributed key-value/relational database.
 * [Apache TinkerPop](http://tinkerpop.apache.org): A unification framework for graph databases and processors.
-* [MongoDB](https://www.mongodb.com/): A distributed, document-oriented database in support of JSON storage and querying.
+* [MongoDB](https://www.mongodb.com/): A document-oriented database in for storing and querying JSON.
 * [Facebook RocksDB](https://rocksdb.org/): A foundational data storage system based on key/value semantics.
 
 
