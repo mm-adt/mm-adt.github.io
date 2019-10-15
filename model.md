@@ -8,7 +8,7 @@ engineers focused on developing mm-ADT compliant technologies.
     * Contributor: A user the contributes technology back to mm-ADT.
     * Customer: A user with a licensing agreement with RReduX,Inc.
   * Partner: Anyone currently or historically connected with an mm-ADT project.
-    * Creator: A member that formed or was voted into a project.
+    * Creator: A partner that formed or was voted into a project.
 
 ## PROJECTS
 
