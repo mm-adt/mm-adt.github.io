@@ -1,15 +1,14 @@
-The mm-ADT Effect
------------------
+# The mm-ADT Effect
 
 The mm-ADT software development group is a collection of loosely acquainted
-engineers focused on developing mm-ADT compliant data technologies. 
+engineers focused on developing mm-ADT compliant technologies.
 
 ## ROLES
-  * User: A user of any technology developed in mm-ADT.
+  * User: A user of any technology developed by mm-ADT.
     * Contributor: A user the contributes technology back to mm-ADT.
     * Customer: A user with a licensing agreement with RReduX,Inc.
   * Partner: Anyone currently or historically connected with an mm-ADT project.
-    * Creator: A member that created or was voted into a project for long-term.
+    * Creator: A member that formed or was voted into a project.
 
 ## PROJECTS
 
@@ -25,22 +24,22 @@ the general architecture whereby all other mm-ADT projects must relate.
 
 ### PROJECT CREATION
 
-Any user can propose a project to the mm-ADT public mailing list. The act of propsing 
+Any user can propose a project to the mm-ADT public mailing list. The act of proposing 
 a project makes the user a contributor. The contributor's proposal is submitted via a
 [DISCUSS] posting. A discussion can go on for an indefinite amount of time. 
-When the contributor has worked out their argument, a [VOTE] can be proposed. 
+When the contributor has worked out their argument, a [VOTE] is proposed. 
 Voting is done on a -1,0,+1 scale over a 1 week window. The votes are tallied and 
-the result can be positive (approved), zero (delayed), and negative (denied).
+the result can be positive (approved), zero (delayed), and negative (denied). All
+partners vote on a proposed project.
 
 If the final [VOTE] is positive, then a private repository is created for the contributor's
-project. At this point, the contributor is a creator (and thus, an mm-ADT partner).
-
-A project is maintained in a private repository until its debut release. The first release
-requires a [VOTE] from all mm-ADT partners. However, all subsequent releases are voted on by 
+project. At this point, the contributor is a creator (and thus, an mm-ADT partner). A project 
+is maintained in a private repository until its debut release. The first release
+requires a [VOTE] from all mm-ADT partners, where all subsequent releases are voted by 
 the project creators.
 
 ### PROJECT DELIVERABLES
-Every release, the project creators must turn in the following items:
+The project creators must turn in the following items at every release:
 
 * A summary of their changes.
 * A license price.
