@@ -35,7 +35,7 @@ The mm-ADT VM is the integration point of query languages, processors, and stora
 * [Apache Flink](http://flink.apache.org): A near-time analytics processor for cluster-oriented computing.
 * [Apache Beam](http://beam.apache.org): A unification framework for popular stream processors.
 * [Apache Hadoop](http://hadoop.apache.org): A batch analytics processor for cluster-oriented computing.
-* [Lightbend Akka](http://akka.io): A message-passing processor for distributed co-located computing.
+* [Lightbend Akka](http://akka.io): A message-passing processor for co-located computing.
 
 ### Storage Systems
 
@@ -44,7 +44,7 @@ The mm-ADT VM is the integration point of query languages, processors, and stora
 * [Apache Ignite](http://ignite.apache.org): A distributed key-value/relational database.
 * [Apache TinkerPop](http://tinkerpop.apache.org): A unification framework for graph databases and processors.
 * [MongoDB](https://www.mongodb.com/): A document-oriented database in for storing and querying JSON.
-* [Facebook RocksDB](https://rocksdb.org/): A foundational data storage system based on key/value semantics.
+* [Facebook RocksDB](https://rocksdb.org/): An embedded key/value storage system.
 
 
 ## Licensing
