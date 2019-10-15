@@ -14,7 +14,3 @@ mm-ADT is focused on integrating the many open source data projects currently sp
 ## Licensing
 
 mm-ADT is dual licensed: AGPL3 and a commercial license through RReduX,Inc. 
-
----
-
-mm-ADT is a trademark of RReduX,Inc.
