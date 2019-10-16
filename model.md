@@ -1,8 +1,13 @@
 # mm-ADT
 ## An Open Source Model
 
-The mm-ADT software development group is a collection of loosely acquainted
-engineers focused on developing mm-ADT compliant technologies.
+The mm-ADT software development group is composed of loosely acquainted
+engineers working on self-governed, open source projects. Engineers 
+define, develop, support, and market the products that their projects create. 
+Unlike other open source models, engineers also determine product licensing
+costs as well as project member revenue distribution percentages. The means
+by which these economic decisions takes place is analogous to all other
+open source decision making--via `[DISCUSS]` and `[VOTE]`.
 
 ---
 
