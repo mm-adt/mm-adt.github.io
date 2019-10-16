@@ -6,3 +6,5 @@ target/
 fileTemplates/
 html/
 .DS_Store
+_site/
+Gemfile*
