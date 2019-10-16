@@ -4,7 +4,16 @@
 @import "{{ site.theme }}";
 
 header {
+  padding-top: 15px; 
+  padding-bottom: 0px;
+}
+
+#downloads {
   display: none;
 }
 
 h3 { margin-bottom: 8px; font-size: 18px; font-weight: bold; color: #303030; }
+
+header h3 { margin-bottom: 8px; font-size: 18px; font-weight: bold; color: #303030; }
+
+header a { color:#303030; }
