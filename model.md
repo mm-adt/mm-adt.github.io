@@ -5,18 +5,22 @@ The mm-ADT software development group is composed of loosely acquainted
 engineers working on self-governed, open source projects. Engineers 
 define, develop, support, and market the products that their projects create. 
 Unlike other open source models, engineers also determine product licensing
-costs as well as project member revenue distribution percentages. The means
-by which these economic decisions takes place is analogous to all other
-open source decision making--via `[DISCUSS]` and `[VOTE]`.
+costs as well as project member revenue distribution percentages. These economic 
+decisions are made in the same manner as other open source decisions--`[DISCUSS]` 
+and `[VOTE]`.
 
 ---
 
-## Roles
+## People
+
+mm-ADT technologies are produced and consumed by people and companies.
+The roles these individuals play are defined below.
+
 * **User**: A consumer of mm-ADT technology.
   * **Contributor**: A user offering mm-ADT features, patches, and support.  
   * **Customer**: A user with an mm-ADT commercial license.
 * **Partner**: A producer of mm-ADT technology.
-  * **Creator**: A partner who formed or was invited into an mm-ADT project.
+  * **Creator**: A partner who formed or was invited to join an mm-ADT project.
 
 All contributors and partners must sign an ICLA or CCLA.
 
@@ -26,11 +30,12 @@ All contributors and partners must sign an ICLA or CCLA.
 ---
 
 ## Projects
-The mm-ADT virtual machine (mm-ADT VM) is the foundational project that defines
-the necessary protocols and tooling for all other mm-ADT projects. 
+The mm-ADT virtual machine (mm-ADT VM) is the founding project that
+is responsible for defining the protocols and tooling by which all other
+mm-ADT projects integrate.
 
 * Every mm-ADT project has a namespace of the form `xyz.mm-adt.org`.
-* Every mm-ADT project has its own GitHub repository.
+* Every mm-ADT project has an <a href="https://github.com/mm-adt">mm-ADT GitHub repository</a>.
 * Every mm-ADT project has a homepage with documentation.
 * Every mm-ADT project has a public and a private mailing list.
   * Public mailing lists are how creators support their users (thus, customers).
