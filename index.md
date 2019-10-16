@@ -16,13 +16,13 @@ From relational to graph query languages, real-time to batch analytics, and from
 
 mm-ADT was initially going to be released under the Apache2 license. However, after some reflection, this path was altered, where perhaps "free software" is not the best  approach for our trade at this point in time. In order to create a more responsible relationship between OSS and business, mm-ADT seeks to engage open source developers writing software at the caliber of the Apache Software Foundation, Cloud Native Computing Foundation, and similar OSS foundations. The intention is not to turn developers away from developing free software, but to encourage them to build bindings from their projects to mm-ADT as all mm-ADT technology will be dual licensed, where the revenue generated from license sales goes directly to the developers. 
 
-For more information, please review: <a href="model.html">The mm-ADT Effect</a>.
+For more information, please review: <a href="model.html">mm-ADT Open Source Model</a>.
 
 ---
 
 ## Components
 
-The mm-ADT virtual machine integrates query languages, processors, and storage systems. The following itemizations outline potential near-term bindings. Engineers from these projects are invited to join the mm-ADT VM public mailing list and propose a project (see <a href="model.html">The mm-ADT Effect</a>).
+The mm-ADT virtual machine integrates query languages, processors, and storage systems. The following itemizations outline potential near-term bindings. Engineers from these projects are invited to join the mm-ADT VM public mailing list and propose a project (see <a href="model.html">mm-ADT Open Source Model</a>).
 
 ### Query Languages
 
