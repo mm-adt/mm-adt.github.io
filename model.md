@@ -1,5 +1,5 @@
 # mm-ADT
-## An Open Source Collective
+## An Open Source Model
 
 The mm-ADT software development group is a collection of loosely acquainted
 engineers focused on developing mm-ADT compliant technologies.
