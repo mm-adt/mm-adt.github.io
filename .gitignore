@@ -8,3 +8,4 @@ html/
 .DS_Store
 _site/
 Gemfile*
+.sass-cache/
