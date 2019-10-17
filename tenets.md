@@ -7,10 +7,12 @@ layout: default
 
 ### Technological Progress Requires Independent Engineers
 
-The open source software foundations use a license that is beneficial to software, but at this point in time in our history, detrimental to developers. In order for talented engineers to earn a living with their open source software, they have to find a software company willing to pay them to do so. The are two problems with this situation. 
+The open source software foundations use a license that is beneficial to consumers, but at this point in time in our history, detrimental to producers. In order for talented engineers to earn a living with their open source software, they have to find a software company willing to pay them to do so. There are two problems with this situation. 
 
-  * If the developer is entrepreneurial, the developer will create their own company around their open source product. Many startups over the last decade did just this. Unfortunately, these companies were easily obviated in the market because their core product was freely licensed and larger tech firms could build an identical product without having to invest in the research and development effort.
-  * If the developer is not business oriented, the developer will take a position in a company that uses their open source software. The developer's ability to continue their work is now dependent on their sponsoring company. Moreover, the sponsoring company has influence over the direction and pace of development. This stifles technological development.
+  * If a developer is entrepreneurial, the developer and his project colleagues will create a company around their open source project. Many startups over the last decade did just this. Unfortunately, these companies were easily obviated in the market because their core product was freely licensed and larger tech firms could build an identical product without having to invest in the research and development effort.
+  * If a developer isn't business-minded, the developer will take a position in a company that uses their open source project. The developer's ability to continue their work is now dependent on their sponsoring organization. Moreover, the sponsoring company has influence over the direction and pace of development. 
+
+Encumbered engineers stifles technological progress.
 
 ### Commercial Organizations Should Pay for the Software They Use
 
