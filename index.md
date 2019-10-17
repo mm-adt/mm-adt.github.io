@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # mm-ADT
 ## A Multi-Model Abstract Data Type
 

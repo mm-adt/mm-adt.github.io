@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # mm-ADT
 ## An Open Source Model
 
