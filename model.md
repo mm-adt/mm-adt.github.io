@@ -31,7 +31,7 @@ All contributors and partners must sign an ICLA or CCLA.
 ---
 
 ## Projects
-The mm-ADT virtual machine (mm-ADT VM) is the founding project that
+The mm-ADT virtual machine ([mm-ADT VM](http://vm.mm-adt.org/)) is the founding project that
 is responsible for defining the protocols and tooling by which all other
 mm-ADT projects integrate.
 
