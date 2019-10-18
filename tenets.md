@@ -7,12 +7,8 @@ layout: default
 
 ### Technological Progress Requires Independent Engineers
 
-The open source software foundations use a license that is beneficial to consumers, but at this point in time in our history, detrimental to producers. In order for talented engineers to earn a living with their open source software, they have to find a software company willing to pay them to do so. There are two problems with this situation. 
-
-  * If a developer is entrepreneurial, the developer and his project colleagues will create a company around their open source project. Many startups over the last decade did just this. Unfortunately, these companies were easily obviated in the market because their core product was freely licensed and larger tech firms could build an identical product without having to invest in the research and development effort.
-  * If a developer isn't business-minded, the developer will take a position in a company that uses their open source project. The developer's ability to continue their work is now dependent on their sponsoring organization. Moreover, the sponsoring company has influence over the direction and pace of development. 
-
-Encumbered engineers stifles technological progress.
+The open source software foundations use a license that is beneficial to consumers, but at this point in time in our history, detrimental to producers&mdash;
+the developers. In order for talented engineers to earn a living with their open source software, they have to find a company willing to pay them to do so. There is a problem with this situation. two problems with this situation. The developers' ability to continue their work is now dependent on their sponsoring organization who now also influences direction and pace of development. A unnecessary complication to the developers' vision. For entrepreneurial developers, a company is typically formed around their open source project. Many startups over the last decade did just this. Unfortunately, these companies were easily obviated in the market because their core product was freely licensed and larger tech firms could build an identical product without having to invest in the research and development effort. This is a major conceptual/economic-loophole that currently resides in our open source foundations' free software licenses. Free software is harmful to everyone in a monopolistic economic environment. It has led to short-term gains at the expense of the retardation of the creative spirit of our engineers. In summary, encumbered engineers stifles technological progress.
 
 ### Commercial Organizations Should Pay for the Software They Use
 
