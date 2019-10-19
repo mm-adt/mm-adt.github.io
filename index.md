@@ -66,7 +66,7 @@ The long term technological goal is to enable engineers to focus on their specif
 
 ### Cloud Computing
 
-Cloud computing services make software deployment and licensing easier with pre-configured images and pay-as-you-go billing. An mm-ADT project dedicated to packaging the mm-ADT VM and its associated technologies for use with the major cloud vendors would open mm-ADT projects to new licensing models and revenue sources. Most importantly, the mm-ADT cloud computing team would benefit from being at the forefront of a potentially large revenue stream.
+Cloud computing services make software deployment and licensing easier with pre-configured images and pay-as-you-go billing. An mm-ADT project dedicated to packaging the mm-ADT VM and its associated technologies for use with the major cloud vendors would open mm-ADT projects to new licensing models and income streams. Most importantly, the mm-ADT cloud computing team would benefit from being at the forefront of a potentially large source of revenue.
 
 [Amazon AWS](https://aws.amazon.com): Amazon's cloud computing services.  
 [Google Cloud](https://cloud.google.com/): Google's cloud computing service.  
