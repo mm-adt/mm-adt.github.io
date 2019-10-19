@@ -13,7 +13,7 @@ layout: default
 
 <img src="assets/images/lang-proc-store.png" alt="mm-ADT Components" width="600" />
 
-From relational to graph query languages, real-time to batch analytics, and from single machine to cluster-oriented data stores, mm-ADT can be used to generate _synthetic data infrastructures_ tailored for the problem at hand.
+From relational to graph query languages, real-time to batch analytics, and from single machine to cluster-oriented data stores, mm-ADT can be used to generate _synthetic data infrastructures_ tailored to the problem at hand.
 
 ---
 
