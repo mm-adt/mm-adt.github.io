@@ -3,8 +3,10 @@ layout: default
 ---
 
 # mm-ADT
-## Tenets
- 
+## An Open Source Institute
+
+mm-ADT&#8482; enables open source developers to continue to write free open source software while side-stepping two common problems associated with this chosen lifestyle: 1.) the complications associated with corporate sponsorship and 2.) the economic burdens of unemployment. 
+
 ### Technological Progress Requires Independent Engineers
 
 Free software licenses are beneficial to consumers and detrimental to producers&mdash;the developers. In order for talented engineers to earn a living with their open source software, they have to find a company willing to pay them to continue their development. The developer is in the problematic situation where their work is dependent on their sponsoring organization who now also controls the direction and pace of development as well as the interoperability and inclusion of any novel innovations within the project.

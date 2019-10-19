@@ -7,6 +7,7 @@ layout: default
 
 <a href="https://github.com/mm-adt"><img src="assets/images/github-icon.png" alt="GitHub" width="35" /></a>
 <a href="http://twitter.com/_mmadt"><img src="assets/images/twitter-icon.png" alt="Twitter" width="35" /></a>
+<a href="mailto:info@mm-adt.org"><img src="assets/images/email-icon.png" alt="Twitter" width="35" /></a>
 
 <img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="175" style="float:right;"/> mm-ADT&#8482; is a distributed virtual machine capable of integrating a diverse collection of data processing technologies. This is made possible via three language-agnostic interfaces: language, process, and storage. When a technology implements a respective interface, the technology is considered _mm-ADT compliant_ and is able to communicate with any other compliant technologies via the virtual machine. In this manner, query language developers can develop languages irrespective of the underlying storage system being manipulated. Processing engines can be programmed by any query language and executed over any storage system. Finally, data storage systems automatically support all mm-ADT compliant query languages and processors.
 
@@ -25,6 +26,7 @@ For more information, please review: <a href="tenets.html">The mm-ADT Tenets</a>
 ---
 
 ## Technologies
+[](#technologies)
 
 The mm-ADT virtual machine integrates query languages, processors, and storage systems. Engineers developing any of the projects below are invited to join the mm-ADT VM public mailing list and propose an mm-ADT integration project (see <a href="model.html">The mm-ADT Open Source Model</a>).
 
@@ -58,6 +60,17 @@ The mm-ADT virtual machine integrates query languages, processors, and storage s
 [MongoDB](https://www.mongodb.com/): A document-oriented database for storing and querying JSON.
 
 The long term technological goal is to enable engineers to focus on their specific expertise whether it be in, for example, language design and compilers, distributed processing, or cluster-oriented file storage and indexing. Through the mm-ADT virtual machine, disparate technologies in the data processing stack can integrate in a plug-and-play manner enabling project outreach with the benefit of economic compensation.
+
+## Infrastructure
+[](#infrastructure)
+
+### Cloud Computing
+
+Cloud computing services make software deployment and licensing easier with pre-configured images and pay-as-you-go billing. An mm-ADT project dedicated to packaging the mm-ADT VM and its associated technologies for use with the major cloud vendors would open mm-ADT projects to new licensing models and revenue sources. Most importantly, the mm-ADT cloud computing team would benefit from being at the forefront of a potentially large revenue stream.
+
+[Amazon AWS](https://aws.amazon.com): Amazon's cloud computing services.  
+[Google Cloud](https://cloud.google.com/): Google's cloud computing service.  
+[Microsoft Azure](https://azure.microsoft.com/): Microsoft's cloud computing service.  
 
 ---
 

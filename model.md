@@ -5,7 +5,7 @@ layout: default
 # mm-ADT
 ## An Open Source Model
 
-The mm-ADT software development group is composed of loosely acquainted engineers working on self-governed, open source projects. Engineers define, develop, support, and market the products that their projects create. Unlike other open source models, engineers also determine product licensing costs as well as project member revenue distribution percentages. These economic decisions are made in the same manner as other open source decisions--`[DISCUSS]` and `[VOTE]`.
+The mm-ADT&#8482; software development group is composed of loosely acquainted engineers working on self-governed, open source projects. Engineers define, develop, support, and market the products that their projects create. Unlike other open source models, engineers also determine product licensing costs as well as project member revenue distribution percentages. These economic decisions are made in the same manner as all open source project decisions--`[DISCUSS]` and `[VOTE]`.
 
 **NOTICE**: The mm-ADT Open Source Model is currently under development and will not be considered
 binding until this notice is removed.
