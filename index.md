@@ -8,17 +8,17 @@ layout: default
 <a href="https://github.com/mm-adt"><img src="assets/images/github-icon.png" alt="GitHub" width="35" /></a>
 <a href="http://twitter.com/_mmadt"><img src="assets/images/twitter-icon.png" alt="Twitter" width="35" /></a>
 
-<img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="175" style="float:right;"/> mm-ADT&#8482; is a distributed virtual machine designed to integrate data-oriented technologies. This is accomplished via three language-agnostic interfaces: language, process, and storage. When a technology implements a respective interface, the technology is considered _mm-ADT compliant_ and can communicate with any other mm-ADT compliant technologies. In this manner, query language developers can develop languages irrespective of the underlying storage system that will ultimately be manipulated by the language. Processing engines can be programmed by any query language and used over any storage system. Finally, data storage systems automatically support all mm-ADT compliant query languages and processors.
+<img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="175" style="float:right;"/> mm-ADT&#8482; is a distributed virtual machine for integrating diverse data processing technologies. This is accomplished via three language-agnostic interfaces: language, process, and storage. When a technology implements a respective interface, the technology is considered _mm-ADT compliant_ and can communicate with any other compliant technologies through the virtual machines. In this manner, query language developers can develop languages irrespective of the underlying storage system being manipulated. Processing engines can be programmed by any query language and executed over any storage system. Finally, data storage systems automatically support all mm-ADT compliant query languages and processors.
 
 <img src="assets/images/lang-proc-store.png" alt="mm-ADT Components" width="600" />
 
-From relational to graph query languages, real-time to batch analytics, and from single machine to cluster-oriented databases, mm-ADT enables users to generate _synthetic data infrastructures_ tailored to the requirements of their application.
+From relational to graph query languages, real-time to batch analytics, and from single machine to cluster-oriented data stores, mm-ADT can be used to generate _synthetic data infrastructures_ tailored for the problem at hand.
 
 ---
 
 ## Founding Purpose
 
-mm-ADT was originally planned to be released under the Apache2 free software license. However, after some reflection, it was deemed that free software is perhaps not the best means of distributing technology within our industry at this point in time. In order to create a more responsible relationship between OSS and business, mm-ADT provides a mechanism for compensating open source developers who write free software for the Apache Software Foundation, Cloud Native Computing Foundation, and other similar OSS foundations. The intention is _not_ to have developers abandon their foundation affiliations, but instead to encourage them to also integrate their projects with mm-ADT. By doing so, their technology is given a commercial outlet, where the revenue generated from product licensing goes directly to the developers.
+mm-ADT was originally planned for release under the Apache2 free software license. However, after some reflection, it was deemed that free software is perhaps not the best means of distributing technology at this point in time in our industry. In order to create a more responsible relationship between OSS and business, mm-ADT provides a means of compensating open source developers for their efforts at the Apache Software Foundation, Cloud Native Computing Foundation, and other similar OSS foundations. The intention is _not_ to have developers abandon their foundation affiliations, but instead to encourage them to also integrate their projects with mm-ADT. By doing so, their technology is given a commercial outlet, where the revenue generated from product licensing goes directly to the developers.
 
 For more information, please review: <a href="tenets.html">The mm-ADT Tenets</a>.
 
