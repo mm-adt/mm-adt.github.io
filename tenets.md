@@ -7,17 +7,19 @@ layout: default
 
 mm-ADT&#8482; enables open source developers to continue to write free open source software while side-stepping two common problems associated with this chosen lifestyle: 1.) the complications associated with corporate sponsorship and 2.) the economic burdens of unemployment. 
 
-### Corporate Sponsorship Complicates Open Source
+### Independent Open Source Developers Suffer Economically
 
-Free software licenses are beneficial to consumers and detrimental to producers&mdash;the developers. In order for talented engineers to earn a living with their open source software, they have to find a company willing to pay them to continue their development. The developer is in the problematic situation where their work is dependent on their sponsoring organization who now also controls the direction and pace of development as well as the interoperability and inclusion of any novel innovations within the project.
+Idependent open source developers spend their time developing software that provides no tangible compensation and in fact, as the popularity of their project increases, can lead them to burnout and financial ruin.
 
-### Open Source Developers Suffer Needless Complication
+### Corporate Open Source Developers Sacrafice Creative Freedom 
 
-The professional lives of open source developers are overly complicated because the software they spend their time developing provides no tangible compensation and in fact, as the popularity of their project increases, can lead them to burnout and financial ruin.
+Open source developers can earn a living by working for companies willing to pay them to do open source development. The developer is in the problematic situation where their work is dependent on their sponsoring organization who now also controls the direction and pace of development as well as the interoperability and inclusion of any novel innovations within the project.
 
-### Open Core Is No Longer a Viable Business-Model
+### Entrepreneurial Open Source Developers Lack a Competitive Edge
 
 Developers with a more entrepreneurial spirit may form a company around their open source project. Many startups over the last decade did just this. Unfortunately, these companies were easily obviated in the market because their core product was freely licensed and larger tech firms were able to offer identical products without having to invest in the research and development effort. This is a major conceptual/economic-"loophole" (entailment) in the industry's use of free software licenses at this point in time.
+
+---
 
 ### Open Source Software Isn't Free
 
@@ -31,7 +33,9 @@ The free open source software foundations require developers to define, create, 
 
 Top-down corporate management is an unnecessary appendage to a world-class software development team. This has been proven time and again by the high-quality, self-governed projects of the open source software foundations. Likewise, corporate marketing and sales infrastructure provide little value for top-quality projects that naturally sell themselves by being well documented, promoted, and where the source can be reviewed, downloaded, integrated, tested, and benchmarked all prior to adoption by the consumer. Quality open source software is not born nor maintained by corporate infrastructure, but by competent, self-motivated developers.
 
-### The Free Market Determines a Developer's Value
+---
+
+### The Free Market Determines Product Value
 
 mm-ADT seeks to create a simple, fair open source economy devoid of contorting financial mechanism such as investors, stock options, bonuses, raises, performance reviews, power hierarchies, and other complications that only serve to obfuscate the developer's true worth. mm-ADT empowers developers by offering them direct access to the free and open market. 
 
