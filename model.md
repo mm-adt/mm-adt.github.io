@@ -63,7 +63,7 @@ If the final `[VOTE]` is positive, then a private repository is created for the 
 
 #### A Packaged Product
 
-Maven3-based projects should use <a href="https://creadur.apache.org/rat/">Apache Rat</a> to verify copyright notices (see example <a href="https://github.com/mm-adt/vm/blob/master/java/pom.xml#L118-L157">pom.xml</a>.
+Maven3-based projects should use <a href="https://creadur.apache.org/rat/">Apache Rat</a> to verify copyright notices (see example <a href="https://github.com/mm-adt/vm/blob/master/java/pom.xml#L118-L157">pom.xml</a>).
 
 #### A Product List Price
 -- Partners are responsible for setting their product's price.
