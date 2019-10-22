@@ -9,7 +9,7 @@ layout: default
 <a href="http://twitter.com/_mmadt"><img src="assets/images/twitter-icon.png" alt="Twitter" width="35" /></a>
 <a href="mailto:info@mm-adt.org"><img src="assets/images/email-icon.png" alt="Twitter" width="35" /></a>
 
-<img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="175" style="float:right;"/> mm-ADT&#8482; is a distributed virtual machine capable of integrating a diverse collection of data processing technologies. This is made possible via three language-agnostic interfaces: language, process, and storage. When a technology implements a respective interface, the technology is considered _mm-ADT compliant_ and is able to communicate with any other compliant technologies via the virtual machine. In this manner, query language developers can develop languages irrespective of the underlying storage system being manipulated. Processing engines can be programmed by any query language and executed over any storage system. Finally, data storage systems automatically support all mm-ADT compliant query languages and processors.
+<img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="185" style="float:right;"/> mm-ADT&#8482; is a distributed virtual machine capable of integrating a diverse collection of data processing technologies. This is made possible via three language-agnostic interfaces: language, process, and storage. When a technology implements a respective interface, the technology is considered _mm-ADT compliant_ and is able to communicate with any other compliant technologies via the virtual machine. In this manner, query language developers can develop languages irrespective of the underlying storage system being manipulated. Processing engines can be programmed by any query language and executed over any storage system. Finally, data storage systems automatically support all mm-ADT compliant query languages and processors.
 
 <img src="assets/images/lang-proc-store.png" alt="mm-ADT Components" width="600" />
 
@@ -19,7 +19,7 @@ From relational to graph query languages, real-time to batch analytics, and from
 
 ## Founding Purpose
 
-mm-ADT was originally planned for release under the Apache2 free software license. However, after some reflection, it was deemed that free software is perhaps not the best means of distributing technology at this point in time in our industry. In order to create a more responsible relationship between OSS and business, mm-ADT provides a means of compensating open source developers for their efforts at the Apache Software Foundation, Cloud Native Computing Foundation, and other similar OSS foundations. The intention is _not_ to have developers abandon their foundation affiliations, but instead to encourage them to also integrate their projects with mm-ADT. By doing so, their technology is given a commercial outlet, where the revenue generated from product licensing goes directly to the developers.
+<rimg><a href="assets/images/posters/protect-your-hands.jpg"><img src="assets/images/posters/protect-your-hands.jpg" width="180"/></a></rimg> mm-ADT was originally planned for release under the Apache2 free software license. However, after some reflection, it was deemed that free software is perhaps not the best means of distributing technology at this point in time in our industry. In order to create a more responsible relationship between OSS and business, mm-ADT provides a means of compensating open source developers for their efforts at the Apache Software Foundation, Cloud Native Computing Foundation, and other similar OSS foundations. The intention is _not_ to have developers abandon their foundation affiliations, but instead to encourage them to also integrate their projects with mm-ADT. By doing so, their technology is given a commercial outlet, where the revenue generated from product licensing goes directly to the developers.
 
 For more information, please review: <a href="tenets.html">The mm-ADT Tenets</a>.
 
@@ -28,7 +28,7 @@ For more information, please review: <a href="tenets.html">The mm-ADT Tenets</a>
 ## Technologies
 [](#technologies)
 
-The mm-ADT virtual machine integrates query languages, processors, and storage systems. Engineers developing any of the projects below are invited to join the mm-ADT VM public mailing list and propose an mm-ADT integration project (see <a href="model.html">The mm-ADT Open Source Model</a>).
+<rimg><a href="assets/images/posters/forging-ahead.jpg"><img src="assets/images/posters/forging-ahead.jpg" width="180"/></a></rimg> The mm-ADT virtual machine integrates query languages, processors, and storage systems. Engineers developing any of the projects below are invited to join the mm-ADT VM public mailing list and propose an mm-ADT integration project (see <a href="model.html">The mm-ADT Open Source Model</a>).
 
 ### Query Languages
 
@@ -63,6 +63,8 @@ The long term technological goal is to enable engineers to focus on their specif
 
 ## Infrastructure
 [](#infrastructure)
+
+<rimg><a href="assets/images/posters/whos-who-in-the-zoo.jpg"><img src="assets/images/posters/whos-who-in-the-zoo.jpg" width="180"/></a></rimg>
 
 ### Cloud Computing
 
