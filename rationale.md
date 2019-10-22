@@ -13,7 +13,7 @@ layout: default
 
 #### Independent Open Source Developers Suffer Economically
 
-Independent open source developers spend their time developing software that provides no financial compensation and, as the popularity of their project increases, success can lead  to burnout and financial ruin.
+Independent open source developers spend their time developing software that provides no financial compensation and, as the popularity of their project increases, success can lead  to burnout and financial ruin. 
 
 #### Corporate Open Source Developers Sacrifice Autonomy 
 
