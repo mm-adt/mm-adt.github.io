@@ -5,13 +5,11 @@ layout: default
 # mm-ADT
 ## A Multi-Model Abstract Data Type
 
-<a href="https://github.com/mm-adt"><img src="assets/images/github-icon.png" alt="GitHub" width="35" /></a>
-<a href="http://twitter.com/_mmadt"><img src="assets/images/twitter-icon.png" alt="Twitter" width="35" /></a>
-<a href="mailto:info@mm-adt.org"><img src="assets/images/email-icon.png" alt="Twitter" width="35" /></a>
+---
 
-<img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="185" style="float:right;"/> mm-ADT&#8482; is a distributed virtual machine capable of integrating a diverse collection of data processing technologies. This is made possible via three language-agnostic interfaces: language, process, and storage. When a technology implements a respective interface, the technology is considered _mm-ADT compliant_ and is able to communicate with any other compliant technologies via the virtual machine. In this manner, query language developers can develop languages irrespective of the underlying storage system being manipulated. Processing engines can be programmed by any query language and executed over any storage system. Finally, data storage systems automatically support all mm-ADT compliant query languages and processors.
+<img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="175" style="float:right;"/> mm-ADT&#8482; is a distributed virtual machine capable of integrating a diverse collection of data processing technologies. This is made possible via three language-agnostic interfaces: language, process, and storage. When a technology implements a respective interface, the technology is considered _mm-ADT compliant_ and is able to communicate with any other compliant technologies via the virtual machine. In this manner, query language developers can develop languages irrespective of the underlying storage system being manipulated. Processing engines can be programmed by any query language and executed over any storage system. Finally, data storage systems automatically support all mm-ADT compliant query languages and processors.
 
-<img src="assets/images/lang-proc-store.png" alt="mm-ADT Components" width="600" />
+<img src="assets/images/lang-proc-store.png" alt="mm-ADT Components" width="700" />
 
 From relational to graph query languages, real-time to batch analytics, and from single machine to cluster-oriented data stores, mm-ADT can be used to generate _synthetic data infrastructures_ tailored to the problem at hand.
 

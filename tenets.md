@@ -13,11 +13,11 @@ layout: default
 
 #### Independent Open Source Developers Suffer Economically
 
-Independent open source developers spend their time developing software that provides no tangible compensation and in fact, as the popularity of their project increases, can lead them to burnout and financial ruin.
+Independent open source developers spend their time developing software that provides no financial compensation and, as the popularity of their project increases, success can lead  to burnout and financial ruin.
 
 #### Corporate Open Source Developers Sacrifice Autonomy 
 
-Corporate open source developers are in the problematic situation where their work is dependent on their sponsoring organization who now also controls the direction and pace of development as well as the interoperability and inclusion of any novel innovations within the project.
+Corporate open source developers are in the problematic situation where their work is dependent on their sponsoring organization who also controls the direction and pace of development as well as the interoperability and inclusion of any novel innovations within the project.
 
 #### Entrepreneurial Open Source Developers Lack a Competitive Edge
 
@@ -35,11 +35,11 @@ The free availability of open source software has led to the erroneous impressio
 
 #### World-Class Developers Understand Marketing and Outreach
 
-The free open source software foundations require developers to define, create, document, support, and market their technology. Through project mailing lists, social media site, blogs, as well as via conference speaking engagements and academic articles, open source development teams are well-rounded _value creating machine_.
+The free open source software foundations require developers to define, create, document, support, and market their technology. Through project mailing lists, social media site, blogs, as well as via conference speaking engagements and academic articles, open source development teams are well-rounded _value creating machines_.
 
 #### Corporate Infrastructure Is An Unnecessary Cost
 
-Corporate management structures are an unnecessary appendage to a world-class software development team. This has been proven time and again by the high-quality, self-governed projects of the open source software foundations. Likewise, corporate marketing and sales infrastructure provide little value for top-quality projects that naturally sell themselves by being well documented, promoted, and where the source can be reviewed, downloaded, integrated, tested, and benchmarked all prior to adoption by the consumer. Quality open source software is not born nor maintained by corporate infrastructure, but by competent, self-motivated developers.
+Corporate management structures are an unnecessary appendage to a world-class software development team. This has been proven time and again by the high-quality, self-governed projects of the open source software foundations. Likewise, corporate marketing and sales infrastructure provide little value for top-quality projects that naturally sell themselves by being well documented, promoted, and where the source can be reviewed, downloaded, integrated, tested, and benchmarked all prior to adoption by the consumer.
 
 ---
 
