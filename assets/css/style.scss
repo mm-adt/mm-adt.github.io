@@ -24,7 +24,7 @@ header a { color:#303030; }
 header a:hover {
   color:#303030;
   text-decoration: none;
-  -webkit-filter: drop-shadow(0px 0px 1px rgba(231, 5, 10, 0.8));
+  -webkit-filter: drop-shadow(0px 0px 1px rgba(128, 0, 32, 0.5));
 }
 
 
@@ -33,5 +33,5 @@ header a:hover {
 icon {  margin-right:5px; margin-top:0px; }
 
 .boxed {
-  border: 2px solid black; align:center;
+  border: 2px solid black; align:center; padding: 5px;
 }

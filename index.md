@@ -19,7 +19,7 @@ From relational to graph query languages, real-time to batch analytics, and from
 
 <rimg><a href="assets/images/posters/protect-your-hands.jpg"><img src="assets/images/posters/protect-your-hands.jpg" width="180"/></a></rimg> mm-ADT was originally planned for release under the Apache2 free software license. However, after some reflection, it was deemed that free software is perhaps not the best means of distributing technology at this point in time in our industry. In order to create a more responsible relationship between OSS and business, mm-ADT provides a means of compensating open source developers for their efforts at the Apache Software Foundation, Cloud Native Computing Foundation, and other similar OSS foundations. The intention is _not_ to have developers abandon their foundation affiliations, but instead to encourage them to also integrate their projects with mm-ADT. By doing so, their technology is given a commercial outlet, where the revenue generated from product licensing goes directly to the developers.
 
-For more information, please review: <a href="tenets.html">The mm-ADT Tenets</a>.
+For more information, please review: <a href="rationale.html">The mm-ADT Rationale</a>.
 
 ---
 
@@ -30,7 +30,7 @@ The mm-ADT virtual machine integrates query languages, processors, and storage s
 
 <div class="boxed">
 <center>
-The mm-ADT VM is in an initial development stage. The listings below itemize projects that the first version is intending to support.
+The mm-ADT VM is currently in the initial stages of development. The itemized projects below will be compatible with the first release, where a subset is intended to be offered by mm-ADT.
 </center>
 </div>
 <br/>
@@ -65,7 +65,7 @@ The mm-ADT VM is in an initial development stage. The listings below itemize pro
 [Facebook RocksDB](https://rocksdb.org/): An embedded key/value storage system.  
 [MongoDB](https://www.mongodb.com/): A document-oriented database for storing and querying JSON.
 
-Through the mm-ADT virtual machine, disparate technologies in the data processing stack are able to integrate in a plug-and-play manner. The intended long term technological consequence is that engineers will be able to further specialize across the stack as colleagues will concurrently be handling advances in language design and compilers, distributed processing, cluster-oriented file storage and indexing, and their particulars. mm-ADT is a viable means of achieving a universally versatile data platform that can be conveniently tailored to meet a collection of data processing challenges.
+Through the mm-ADT virtual machine, disparate technologies in the data processing stack are able to integrate in a plug-and-play manner. The intended long term technological consequence is that engineers will be able to further specialize across the stack as their colleagues concurrently handle respective advances in language design and compilers, distributed processing, cluster-oriented file storage and indexing, etc. Through open source project integration, mm-ADT makes possible a universally versatile data computing platform.
 
 ## Infrastructure
 [](#infrastructure)
