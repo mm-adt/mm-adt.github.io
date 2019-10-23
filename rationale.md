@@ -62,4 +62,4 @@ mm-ADT integrates open source data projects into a general-purpose data processi
 
 ### Aligning Societal and Individual Incentives
 
-Technological advancement occur when developers with unique skills and perspectives take technical risks. In the mm-ADT model, when such behaviors lead to successful products, the developer is compensated in direct proportion to the value they created in the economy.
+Technological advancements occur when developers with unique skills and perspectives take technical risks. In the mm-ADT model, when such behaviors lead to successful products, the developer is compensated in direct proportion to the value they created in the economy.

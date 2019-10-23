@@ -36,6 +36,8 @@ The mm-ADT VM is currently in the initial stages of development. The itemized pr
 <br/>
 <rimg><a href="assets/images/posters/forging-ahead.jpg"><img src="assets/images/posters/forging-ahead.jpg" width="180"/></a></rimg> 
 
+The mm-ADT virtual machine allows disparate data technologies to coordinate in both a static and dynamic, plug-and-play manner. By universally integrating the world's _defacto_ open source data technologies, mm-ADT becomes malleable enough to support contemporary use-cases, while remaining adaptable to future theoretical and applied advances. The mm-ADT architecture was designed to further specialize the developer expertise. It is hypothesized that individual projects will be simpler to manage and engineer, while the number of projects and their rate of evolution will increase. Because mm-ADT provides a collective focal point, individual projects are no longer responsible for developing every aspect of a data system which, historically, has yielded the monolithic, decade-long software projects we currently use.
+
 ### Query Languages
 
 [Apache Gremlin](http://tinkerpop.apache.org/gremlin.html): a traversal query language for graph-structured data.  
@@ -65,7 +67,7 @@ The mm-ADT VM is currently in the initial stages of development. The itemized pr
 [Facebook RocksDB](https://rocksdb.org/): An embedded key/value storage system.  
 [MongoDB](https://www.mongodb.com/): A document-oriented database for storing and querying JSON.
 
-Through the mm-ADT virtual machine, disparate technologies in the data processing stack are able to integrate in a plug-and-play manner. The intended long term technological consequence is that engineers will be able to further specialize across the stack as their colleagues concurrently handle respective advances in language design and compilers, distributed processing, cluster-oriented file storage and indexing, etc. Through open source project integration, mm-ADT makes possible a universally versatile data computing platform.
+While mm-ADT currently realizes three logical partitions of the data technology space: language, processor, and storage&mdash;once demonstrated viable, each partition will be further divided with, e.g., projects focused on disk-layouts and indexing structures, to projects exploring novel data models and respective language semantics that will be necessary to address the upcoming challenges in our collective pursuit of the nature of structure and process.
 
 ## Infrastructure
 [](#infrastructure)
