@@ -7,7 +7,7 @@ layout: default
 
 ---
 
-Open source software development is no longer the toil of the "hobbyist." The open source models that were developed 20 years ago have not evolved to address the social and economic hardships that open source developers now face. The open source model proposed by mm-ADT offers world-class developers an economic experience that is more natural, sustainable, and aimed at satisfying the developer's ultimate desire: the carefree execution of their talent.
+Open source software development is no longer the toil of the "hobbyist." The open source models that were developed 20 years ago have not evolved to address the social and economic hardships that developers now face. The mm-ADT open source model offers world-class developers an economic experience that is more natural, sustainable, and aimed at satisfying their ultimate desire: the carefree execution of their talent.
 
 ### The Plight of the Open Source Developer 
 
@@ -41,7 +41,7 @@ The free open source software foundations require developers to define, create, 
 
 #### Corporate Infrastructure Is An Unnecessary Cost
 
-Corporate managment structures are an unnecessary appendage to a world-class software development team. This has been proven time and again by the high-quality, self-governed projects of the open source software foundations. Likewise, marketing and sales structures make less sense when projects naturally sell themselves by being well documented, promoted, and where the source can be reviewed, downloaded, integrated, tested, and benchmarked all prior to adoption by the consumer.
+Corporate management structures are an unnecessary appendage to a world-class software development team. This has been proven time and again by the high-quality, self-governed projects of the open source software foundations. Likewise, marketing and sales structures make less sense when projects naturally sell themselves by being well documented, promoted, and where the source can be reviewed, downloaded, integrated, tested, and benchmarked all prior to adoption by the consumer.
 
 ---
 
