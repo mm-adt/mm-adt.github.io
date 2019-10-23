@@ -3,11 +3,11 @@ layout: default
 ---
 
 # mm-ADT
-## An Open Source Model
+## A Career-Centric Open Source Model
 
 ---
 
-mm-ADT&#8482; is composed of developers collaborating on and across any number of self-governed, open source projects. Developers define, develop, support, and market the products that their projects create. Unlike other open source models, engineers also determine product licensing costs as well as project member revenue distribution percentages. These economic decisions are made in the same manner as all other project decisions&mdash;via `[DISCUSS]` and `[VOTE]`.
+mm-ADT&#8482; is composed of professional developers collaborating on and across any number of self-governed, open source projects. Project members define, develop, support, and market their projects' products. Unlike the free open source models, project members also determine product licensing costs as well as project member revenue distribution percentages. These economic decisions are made in the same manner in which all other project decisions are made&mdash;via `[DISCUSS]` and `[VOTE]`.
 
 <div class="boxed">
 <center>
@@ -25,6 +25,7 @@ The mm-ADT Open Source Model is currently under development and will not be cons
 &nbsp;&nbsp;**Contributor**: A user offering mm-ADT features, patches, and support.  
 &nbsp;&nbsp;**Customer**: A user with an mm-ADT commercial license.  
 **Partner**: A producer who created or joined an mm-ADT project.
+&nbsp;&nbsp;**Member**: A partner in the context of a particular project.  
 
 All contributors and partners must sign an ICLA or CCLA. Each mm-ADT project's GitHub repository must be connected with <a href="https://www.clahub.com/">CLAHub</a>. All contributors are then required to sign the project's ICLA before committing source code.
 
