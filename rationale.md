@@ -7,7 +7,7 @@ layout: default
 
 ---
 
-Open source software developers are a fortunate group of people. Their minds have a logical orientation, their offerings to the world are tangibly felt, and their drive is self-motivated. The open source model proposed by mm-ADT offers world-class developers an economic experience that is more natural, sustainable, and aimed at satisfying the developer's ultimate desire: the carefree execution of their talent.
+Open source software development is no longer the toil of the "hobbyist." The open source models that were developed 20 years ago have not evolved to address the social and economic hardships that open source developers now face. The open source model proposed by mm-ADT offers world-class developers an economic experience that is more natural, sustainable, and aimed at satisfying the developer's ultimate desire: the carefree execution of their talent.
 
 ### The Plight of the Open Source Developer 
 
