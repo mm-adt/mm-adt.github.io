@@ -67,7 +67,7 @@ The mm-ADT virtual machine allows disparate data technologies to coordinate in b
 [Facebook RocksDB](https://rocksdb.org/): An embedded key/value storage system.  
 [MongoDB](https://www.mongodb.com/): A document-oriented database for storing and querying JSON.
 
-While mm-ADT currently realizes three logical partitions of the data technology space: language, processor, and storage&mdash;once demonstrated viable, each partition will be further divided with, e.g., projects focused on disk-layouts and indexing structures, to projects exploring novel data models and respective language semantics that will be necessary to address the upcoming challenges in our collective pursuit of the nature of structure and process.
+While mm-ADT currently realizes three logical partitions of the data technology space: language, processor, and storage&mdash;once demonstrated viable, each partition may be further divided with, e.g., projects focused on disk-layouts and indexing structures, to projects exploring novel data models and respective language semantics necessary to address the upcoming challenges in our collective pursuit of the nature of structure and process.
 
 ## Infrastructure
 [](#infrastructure)
