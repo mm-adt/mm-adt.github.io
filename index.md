@@ -26,7 +26,15 @@ For more information, please review: <a href="tenets.html">The mm-ADT Tenets</a>
 ## Technologies
 [](#technologies)
 
-<rimg><a href="assets/images/posters/forging-ahead.jpg"><img src="assets/images/posters/forging-ahead.jpg" width="180"/></a></rimg> The mm-ADT virtual machine integrates query languages, processors, and storage systems. Engineers developing any of the projects below are invited to join the mm-ADT VM public mailing list and propose an mm-ADT integration project (see <a href="model.html">The mm-ADT Open Source Model</a>).
+The mm-ADT virtual machine integrates query languages, processors, and storage systems. Engineers developing any of the projects below are invited to join the mm-ADT VM public mailing list and propose an mm-ADT integration project (see <a href="model.html">The mm-ADT Open Source Model</a>).
+
+<div class="boxed">
+<center>
+The mm-ADT VM is in an initial development stage. The listings below itemize projects that the first version is intending to support.
+</center>
+</div>
+<br/>
+<rimg><a href="assets/images/posters/forging-ahead.jpg"><img src="assets/images/posters/forging-ahead.jpg" width="180"/></a></rimg> 
 
 ### Query Languages
 
@@ -57,7 +65,7 @@ For more information, please review: <a href="tenets.html">The mm-ADT Tenets</a>
 [Facebook RocksDB](https://rocksdb.org/): An embedded key/value storage system.  
 [MongoDB](https://www.mongodb.com/): A document-oriented database for storing and querying JSON.
 
-The long term technological goal is to enable engineers to focus on their specific expertise whether it be in, for example, language design and compilers, distributed processing, or cluster-oriented file storage and indexing. Through the mm-ADT virtual machine, disparate technologies in the data processing stack can integrate in a plug-and-play manner enabling project outreach with the benefit of economic compensation.
+Through the mm-ADT virtual machine, disparate technologies in the data processing stack are able to integrate in a plug-and-play manner. The intended long term technological consequence is that engineers will be able to further specialize across the stack as colleagues will concurrently be handling advances in language design and compilers, distributed processing, cluster-oriented file storage and indexing, and their particulars. mm-ADT is a viable means of achieving a universally versatile data platform that can be conveniently tailored to meet a collection of data processing challenges.
 
 ## Infrastructure
 [](#infrastructure)

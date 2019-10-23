@@ -7,9 +7,11 @@ layout: default
 
 ---
 
+Open source software developers are a fortunate group of people. Their minds are logically trained, their offerings to the world are tangibly felt, and their motivations purely their own. The open source model proposed by mm-ADT offers world-class developers a more honest and natural economic experience, respectful of the developer's ultimate desire: the carefree execution of their talent. 
+
 ### The Plight of the Open Source Developer 
 
-<limg><a href="assets/images/posters/what-about-india.jpg"><img src="assets/images/posters/what-about-india.jpg" width="160" /></a></limg>
+<limg><a href="assets/images/posters/what-about-india.jpg"><img src="assets/images/posters/what-about-india.jpg" width="170" /></a></limg>
 
 #### Independent Open Source Developers Suffer Economically
 
@@ -27,7 +29,7 @@ Entrepreneurial open source developers may form a company around their open sour
 
 ### The Role of Corporations in Open Source Software
 
-<limg><a href="assets/images/posters/emperors-clothes.jpg"><img src="assets/images/posters/emperors-clothes.jpg" width="160"/></a></limg>
+<limg><a href="assets/images/posters/emperors-clothes.jpg"><img src="assets/images/posters/emperors-clothes.jpg" width="170"/></a></limg>
 
 #### Open Source Software Isn't Free
 
@@ -39,13 +41,13 @@ The free open source software foundations require developers to define, create, 
 
 #### Corporate Infrastructure Is An Unnecessary Cost
 
-Corporate management structures are an unnecessary appendage to a world-class software development team. This has been proven time and again by the high-quality, self-governed projects of the open source software foundations. Likewise, corporate marketing and sales infrastructure provide little value for top-quality projects that naturally sell themselves by being well documented, promoted, and where the source can be reviewed, downloaded, integrated, tested, and benchmarked all prior to adoption by the consumer.
+Corporate managment structures are an unnecessary appendage to a world-class software development team. This has been proven time and again by the high-quality, self-governed projects of the open source software foundations. Likewise, marketing and sales structures make less sense when projects naturally sell themselves by being well documented, promoted, and where the source can be reviewed, downloaded, integrated, tested, and benchmarked all prior to adoption by the consumer.
 
 ---
 
 ### The Benefits of a Developer Driven Platform
 
-<limg><a href="assets/images/posters/no-more-peace.jpg"><img src="assets/images/posters/no-more-peace.jpg" width="160"/></a></limg>
+<limg><a href="assets/images/posters/no-more-peace.jpg"><img src="assets/images/posters/no-more-peace.jpg" width="170"/></a></limg>
 
 #### The Free Market Determines Product Value
 
@@ -53,4 +55,4 @@ mm-ADT seeks to create a simple, fair open source economy devoid of contorting f
 
 #### Interoperable Data Technologies Enable Deeper Specialization
 
-mm-ADT integrates open source data projects into a general-purpose data processing platform. For developers, ease of integration means the freedom to specialize knowing that their contributions will integrate with other complementary technologies across mm-ADT. For commercial organizations, this means its easy to expand product offerings with the latest open source advances. For users, this means being able to use preferred query languages to control specialized processors over storage systems optimized to their application's data access requirements.
+mm-ADT integrates open source data projects into a general-purpose data processing platform. For developers, ease of integration means the freedom to specialize knowing that their contributions will integrate with other complementary technologies across mm-ADT. For commercial organizations, this means its easy to expand product offerings and evolve as data processing fashions come and go. As for users, the benefit from being able to use their preferred query languages to control an assortment of specialized processors to compute over storage systems optimized to their application's data access requirements.
