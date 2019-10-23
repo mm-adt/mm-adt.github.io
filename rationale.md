@@ -7,16 +7,16 @@ layout: default
 
 ---
 
-Open source software development is no longer the toil of the "hobbyist." The open source models that were developed 20 years ago have not evolved to address the social and economic hardships that developers now face. The mm-ADT open source model offers world-class developers an economic experience that is more natural, sustainable, and aimed at satisfying their ultimate desire: the carefree execution of their talent.
+Open source software development is no longer the toil of the "hobbyist." The open source models that were developed 20 years ago are unable to address the contemporary social and economic issues that developers currently face. The mm-ADT open source model offers world-class developers an economic experience that is intended to be more natural, sustainable, and aimed at satisfying the ultimate desire: to live comfortably while pursuing further mastery of the trade.
 
-## The Plight of the Open Source Developer 
+## The Plight of the Free Open Source Developer 
 [](#developer-plight)
 
 <limg><a href="assets/images/posters/what-about-india.jpg"><img src="assets/images/posters/what-about-india.jpg" width="170" /></a></limg>
 
 ### Independent Open Source Developers Suffer Economically
 
-Independent open source developers spend their time developing software that provides no financial compensation and, as the popularity of their project increases, success can lead  to burnout and financial ruin. 
+Independent open source developers spend their time developing software that provides no financial compensation and, paradoxically, as the popularity of their project increases, success can lead to burnout and financial ruin. 
 
 ### Corporate Open Source Developers Sacrifice Autonomy 
 
@@ -37,7 +37,7 @@ Entrepreneurial open source developers may form a company around their open sour
 
 The free availability of open source software has led to the erroneous impression that software does not have an intrinsic value. The consequence has been the creation of technology companies with _inverted_ business models based on support contracts, premium features, and other solutions auxiliary to the primary source of value&mdash;the open source core.
 
-### World-Class Developers A Competent Marketers
+### World-Class Developers Are Product Evangelists
 
 The free open source software foundations require developers to define, create, document, support, and market their technology. Through project mailing lists, social media site, blogs, as well as via conference speaking engagements and academic articles, open source development teams are well-rounded _value creating machines_.
 
@@ -54,12 +54,12 @@ Corporate management structures are an unnecessary appendage to a world-class so
 
 ### The Free Market Determines Product Value
 
-mm-ADT seeks to create a simple, fair open source economy devoid of contorting financial mechanism such as investors, stock options, bonuses, raises, performance reviews, power hierarchies, and other complications that only serve to obfuscate the developer's true worth. mm-ADT empowers developers by offering them direct access to the free and open market. 
+mm-ADT seeks to create a simple, fair open source economy devoid of contorting financial mechanism such as investors, stock options, bonuses, raises, performance reviews, power hierarchies, and other complications that obfuscate both the technology and individual's true worth. mm-ADT empowers developers by offering them direct access to the free and open market. 
 
 ### Interoperability Enables Deeper Specialization
 
-mm-ADT integrates open source data projects into a general-purpose data processing platform. For developers, ease of integration means the freedom to specialize knowing that their contributions will integrate with other complementary technologies across mm-ADT. For commercial organizations, this means its easy to expand product offerings and evolve as data processing fashions come and go. As for users, the benefit from being able to use their preferred query languages to control an assortment of specialized processors to compute over storage systems optimized to their application's data access requirements.
+mm-ADT integrates open source data projects into a general-purpose data processing platform. For developers, ease of integration means the freedom to specialize as contributions will integrate with other mm-ADT technologies. For commercial organizations, it should be easier to expand product offerings and stay relevant as the underlying data technologies rise and fall in popularity. The benefits to the user are that they can use their preferred query language to control an assortment of specialized processors to compute over storage systems appropriate to their application's data access requirements.
 
 ### Aligning Societal and Individual Incentives
 
-Technological advancements occur when developers with unique skills and perspectives take technical risks. In the mm-ADT model, when such behaviors lead to successful products, the developer is compensated in direct proportion to the value they created in the economy.
+Technological advancements occur when developers with unique skills and perspectives take technical risks. In the mm-ADT model, when such behaviors lead to successful outcomes, the developer is compensated in direct proportion to the value they created in the economy.
