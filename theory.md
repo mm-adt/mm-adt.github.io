@@ -36,16 +36,16 @@ Every `obj` is a _carrier_ in an [algebraic structure](https://en.wikipedia.org/
 Every algebraic structure has a set of axioms whose entailments yield theorems. In mm-ADT, theorems are used by the virtual machine to perform [type checking](https://en.wikipedia.org/wiki/Type_system#Type_checking), [type inference](https://en.wikipedia.org/wiki/Type_inference), and program optimization. Furthermore, via the construct of _model-ADTs_ and _embeddings_, different algebraic structures (ultimately using the same fundamental types as carriers) can be defined and mixed within the same computation. Models specify isolated algebraic environments and rules for moving between them. In the lexicon of [category theory](https://en.wikipedia.org/wiki/Category_theory), models are _categories_ and embeddings are [_functors_](https://en.wikipedia.org/wiki/Functor). Thus, the "default algebraic structures" specified in the table above are understood to be a collection of models denoted `mm`&mdash;the core model-ADT from which all other models are ultimately derived.
 
 ```groovy
-mmadt> true | false                         // boolean or
+mmadt> true | false             // bool or
 ==>true
-mmadt> true + true                          // exclusive or
+mmadt> true + true              // bool exclusive or
 ==>false
-mmadt> 'mar' + 'ko'                         // string concatenation
-==> 'marko'
-mmadt> ['name':marko,'age':29] - ['age':29] // record concatenation
-==> ['name':'marko']
-mmadt> 'hey' + 42                           // int is first embedded in str
-==> 'hey42'
+mmadt> 'mar' + 'ko'             // str concatenation
+==>'marko'
+mmadt> ['a':1,'b':2] - ['a':1]  // rec retraction
+==>['b':2]
+mmadt> 'hey' + 42               // int is first embedded in str
+==>'hey42'
 ```
 
 ---
