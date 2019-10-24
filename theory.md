@@ -22,7 +22,7 @@ The base structure of mm-ADT is `obj`&mdash;object. There are 7 fundamental, [_b
 <br/>
 Every `obj` is a _carrier_ in an [algebraic structure](https://en.wikipedia.org/wiki/Algebraic_structure) (a set with operators). The set of operators that each type draws from are denoted by the symbols `*`, `+`, `/`, `-`, `&`, `|`, and `!`. Along with operators, a type can specify a `0` and/or `1` element. The meaning of these symbols is [_overloaded_](https://en.wikipedia.org/wiki/Operator_overloading) in that each type specifies a type-specific operator semantics. The default algebraic structures for the built-in types are provided in the table below.
 
-| type   | algebraic structure         | operators               | members               |
+| type   | algebraic structure         | operators               | identities              |
 | :------|:--------------------------- | :---------------------- | :-------------------- |
 | `bool` | commutative [ring](https://en.wikipedia.org/wiki/Ring_(mathematics)) with unity | `*`,`+`,`-`,`&`,`|`,`!` | `0=>false`,`1=>true`  |
 | `int`  | commutative [ring](https://en.wikipedia.org/wiki/Ring_(mathematics)) with unity | `*`,`+`,`-`             | `0=>0`,`1=>1`         |
@@ -33,24 +33,26 @@ Every `obj` is a _carrier_ in an [algebraic structure](https://en.wikipedia.org/
 | `inst` | a [ring](https://en.wikipedia.org/wiki/Ring_(mathematics)) with unity           | `*`,`+`,`-`,`&`,`|`     | `0=>[none]`,`1=>[id]` |
 
 <br/>
-Every algebraic structure has a set of axioms whose entailments yield theorems. In mm-ADT, theorems are used by the virtual machine to perform [type checking](https://en.wikipedia.org/wiki/Type_system#Type_checking), [type inference](https://en.wikipedia.org/wiki/Type_inference), and program optimization. Furthermore, via the construct of _model-ADTs_ and _embeddings_, different algebraic structures (ultimately using the same fundamental types as carriers) can be defined and mixed within the same computation. Models specify isolated algebraic environments and rules for moving between them. In the lexicon of [category theory](https://en.wikipedia.org/wiki/Category_theory), models are _categories_ and embeddings are [_functors_](https://en.wikipedia.org/wiki/Functor). Thus, the "default algebraic structures" specified in the table above are simply a collection of models denoted `mm`&mdash;the base model-ADT from which all other models are ultimately derived.
+Every algebraic structure has a set of axioms whose entailments yield theorems. In mm-ADT, theorems are used by the virtual machine to perform [type checking](https://en.wikipedia.org/wiki/Type_system#Type_checking), [type inference](https://en.wikipedia.org/wiki/Type_inference), and program optimization. Furthermore, via the construct of _model-ADTs_ and _embeddings_, different algebraic structures (ultimately using the same fundamental types as carriers) can be defined and mixed within the same computation. Models specify isolated algebraic environments and rules for moving between them. In the lexicon of [category theory](https://en.wikipedia.org/wiki/Category_theory), models are _categories_ and embeddings are [_functors_](https://en.wikipedia.org/wiki/Functor). Thus, the "default algebraic structures" specified in the table above are understood to be a collection of models denoted `mm`&mdash;the core model-ADT from which all other models are ultimately derived.
 
 ```groovy
-mmadt> true | false
+mmadt> true | false                         // boolean or
 ==>true
-mmadt> true + true
+mmadt> true + true                          // exclusive or
 ==>false
-mmadt> 'mar' + 'ko'
+mmadt> 'mar' + 'ko'                         // string concatenation
 ==> 'marko'
-mmadt> ['name':str,'age':int] + ['name':'marko']
-==> ['name':'marko','age':int]
+mmadt> ['name':marko,'age':29] - ['age':29] // record concatenation
+==> ['name':'marko']
+mmadt> 'hey' + 42                           // int is first embedded in str
+==> 'hey42'
 ```
 
 ---
 
 ## The Processes of Inst
 
-An mm-ADT object is a static structure. A process is required to mutate objects. All processes are described by the `inst` commutative ring, where `*` is serial instruction composition (compose) and `+` is parallel instruction composition (branch). Thus, `inst` is a unique object in that it bridges the static world of structure to the dynamic world of processes&mdash;computation.
+An mm-ADT object is a static structure. A process is required to mutate objects. All processes are described by the `inst` commutative ring, where `*` is serial instruction composition (compose) and `+` is parallel instruction composition (branch). Thus, `inst` is a unique object in that it bridges the static world of structure and the dynamic world of processes to yield the phenomena of _computing_.
 
 There is special `obj` called `inst`&mdash;instruction.
 
