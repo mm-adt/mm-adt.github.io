@@ -12,7 +12,7 @@ Open source software development is no longer the toil of the "hobbyist." The op
 ## The Plight of the Free Open Source Developer 
 [](#developer-plight)
 
-<limg><a href="assets/images/posters/what-about-india.jpg"><img src="assets/images/posters/what-about-india.jpg" width="170" /></a></limg>
+<a href="assets/images/posters/what-about-india.jpg"><img src="assets/images/posters/what-about-india.jpg" class="limg" width="170" /></a>
 
 ### Independent Open Source Developers Suffer Economically
 
@@ -31,7 +31,7 @@ Entrepreneurial open source developers may form a company around their open sour
 ## The Role of Corporations in Open Source Software
 [](#corporate-roles)
 
-<limg><a href="assets/images/posters/emperors-clothes.jpg"><img src="assets/images/posters/emperors-clothes.jpg" width="170"/></a></limg>
+<a href="assets/images/posters/emperors-clothes.jpg"><img src="assets/images/posters/emperors-clothes.jpg" class="limg" width="170"/></a>
 
 ### Open Source Software Isn't Free
 
@@ -50,7 +50,7 @@ Corporate management structures are an unnecessary appendage to a world-class so
 ## The Benefits of a Developer Driven Platform
 [](#developer-driven)
 
-<limg><a href="assets/images/posters/no-more-peace.jpg"><img src="assets/images/posters/no-more-peace.jpg" width="170"/></a></limg>
+<a href="assets/images/posters/no-more-peace.jpg"><img src="assets/images/posters/no-more-peace.jpg" class="limg" width="170"/></a>
 
 ### The Free Market Determines Product Value
 
