@@ -9,12 +9,17 @@ layout: default
 
 The mm-ADT virtual machine has two primary functions. The first is to coordinate processors and and storage engines with an distributed, multi-machine compute cluster. The second is to enable users to specify computations (i.e. queries or programs) to be executed across the cluster.
 
-## The Obj
+---
 
-The base structure of mm-ADT is `obj`&mdash;object. There are 7 fundamental, [_built-in_ types](https://en.wikipedia.org/wiki/Primitive_data_type) that extend `obj`. Custom _derived types_ can be defined by combining and constraining the 7 built-in types. The mm-ADT standard library provides a collection of generally useful derived types such as `short`,`long`,`varchar`,`complex`,`pair`,etc. mm-ADT users will typically also define domain-specific types such as `person` or `product` for the purpose of modeling their applications constructs.
+## The Structures of Obj
 
+The base structure of mm-ADT is `obj`&mdash;object. There are 7 fundamental, [_built-in_ types](https://en.wikipedia.org/wiki/Primitive_data_type) that extend `obj` and are diagrammed below. Custom _derived types_ can be defined by combining and constraining the 7 built-in types. mm-ADT provides a collection of generally useful derived types such as `short`,`long`,`varchar`,`complex`,`pair`,etc. mm-ADT users will typically also define domain-specific types such as `person` or `company` for the purpose of modeling their applications' constructs.
+
+<center>
 <img src="assets/images/theory/obj-types.png" width="500"/>
+</center>
 
+<br/>
 Every `obj` is a _carrier_ in an [algebraic structure](https://en.wikipedia.org/wiki/Algebraic_structure) (a set with operators). The set of operators that each type draws from are denoted by the symbols `*`, `+`, `/`, `-`, `&`, `|`, and `!`. Along with operators, a type can specify a `0` and/or `1` element. The meaning of these symbols is [_overloaded_](https://en.wikipedia.org/wiki/Operator_overloading) in that each type specifies a type-specific operator semantics. The default algebraic structures for the built-in types are provided in the table below.
 
 | type   | algebraic structure         | operators               | members               |
@@ -28,7 +33,7 @@ Every `obj` is a _carrier_ in an [algebraic structure](https://en.wikipedia.org/
 | `inst` | a [ring](https://en.wikipedia.org/wiki/Ring_(mathematics)) with unity           | `*`,`+`,`-`,`&`,`|`     | `0=>[none]`,`1=>[id]` |
 
 <br/>
-Every algebraic structure has a set of axioms whose entailments yield theorems. In mm-ADT, theorems are used by the virtual machine to perform type [checking](https://en.wikipedia.org/wiki/Type_system#Type_checking)/[inference](https://en.wikipedia.org/wiki/Type_inference) and program optimization. Furthermore, via the construct of _model-ADTs_ and _embeddings_, different algebraic structures (ultimately using the same fundamental types as carriers) can be defined and mixed within the same computation. Models specify isolated algebraic environments and rules for moving between them. In the lexicon of [category theory](https://en.wikipedia.org/wiki/Category_theory), models are _categories_ and embeddings are [_functors_](https://en.wikipedia.org/wiki/Functor). Thus, the "default algebraic structures" specified in  the table above are simply the `mm` model-ADT (the base model-ADT from where all other models are ultimately derived).
+Every algebraic structure has a set of axioms whose entailments yield theorems. In mm-ADT, theorems are used by the virtual machine to perform [type checking](https://en.wikipedia.org/wiki/Type_system#Type_checking), [type inference](https://en.wikipedia.org/wiki/Type_inference), and program optimization. Furthermore, via the construct of _model-ADTs_ and _embeddings_, different algebraic structures (ultimately using the same fundamental types as carriers) can be defined and mixed within the same computation. Models specify isolated algebraic environments and rules for moving between them. In the lexicon of [category theory](https://en.wikipedia.org/wiki/Category_theory), models are _categories_ and embeddings are [_functors_](https://en.wikipedia.org/wiki/Functor). Thus, the "default algebraic structures" specified in the table above are simply a collection of models denoted `mm`&mdash;the base model-ADT from which all other models are ultimately derived.
 
 ```groovy
 mmadt> true | false
@@ -41,7 +46,9 @@ mmadt> ['name':str,'age':int] + ['name':'marko']
 ==> ['name':'marko','age':int]
 ```
 
-## The Inst
+---
+
+## The Processes of Inst
 
 An mm-ADT object is a static structure. A process is required to mutate objects. All processes are described by the `inst` commutative ring, where `*` is serial instruction composition (compose) and `+` is parallel instruction composition (branch). Thus, `inst` is a unique object in that it bridges the static world of structure to the dynamic world of processes&mdash;computation.
 
