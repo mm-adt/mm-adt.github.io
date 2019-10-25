@@ -81,7 +81,7 @@ mmadt> [start,'mar'][plus,'ko']
 ```
 
 <center>
-<img src="assets/images/theory/inst-stream.png" width="58%"/>
+<img src="assets/images/theory/inst-stream.png" width="60%"/>
 </center>
 
 ---
