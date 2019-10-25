@@ -67,7 +67,7 @@ The mm-ADT virtual machine's [instruction set](https://en.wikipedia.org/wiki/Ins
 | `[terminal]` | `X -> X{0}`   | Transform an element of `X` to nothing.                                 |
 
 <br/>
-The _mmlang_ assembly language (distributed with mm-ADT) provides some human-friendly syntax sugars which are compiled to `inst`&mdash;the algebraic structure used by the mm-ADT VM to compute. For instance, the first three expressions below ultimately compile to the final expression. The second expression best demonstrates an embedding. It takes the `str` `'mar'` to the `inst` `[start,'mar']`, where `*` in the `inst` ring then enacts a serial composition with `[plus,'ko']`.
+The _mmlang_ assembly language (distributed with mm-ADT) provides some human-friendly [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar) which are compiled to `inst`&mdash;the algebraic structure used by the mm-ADT VM to compute. For instance, the first three expressions below ultimately compile to the final expression. The second expression best demonstrates an embedding. It takes the `str` `'mar'` to the `inst` `[start,'mar']`, where `*` in the `inst` ring then enacts a serial composition with `[plus,'ko']`.
 
 ```groovy
 mmadt> 'mar' + 'ko'
