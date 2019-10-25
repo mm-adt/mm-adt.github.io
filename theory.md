@@ -7,7 +7,7 @@ layout: default
 
 ---
 
-The mm-ADT virtual machine has two primary functions. The first is to coordinate processors and storage systems within a distributed, multi-machine compute cluster. Secondly, it enables users to specify computations (i.e. queries or programs) to be executed across the cluster. To understand how this is realized, it is important to understand the mm-ADT VM's type system, instruction set architecture, and the means by which any number of isolated algebraic environments are embedded within one another&mdash;enabling the inter-communication of disparate data technologies.
+<a href="assets/images/posters/sculpture-classes.jpg"><img src="assets/images/posters/sculpture-classes.jpg" class="rimg" width="120"/></a> The mm-ADT virtual machine has two primary functions. The first is to coordinate processors and storage systems within a distributed, multi-machine compute cluster. The second is to enable the specification of computations (i.e. queries or programs) for execution across the cluster. To see how this is realized, it is important to understand the mm-ADT VM's type system (`obj`), instruction set architecture (`inst`), and the mechanism by which any number of isolated algebraic environments are embedded within one another (`[model]`)&mdash;thus, enabling the inter-communication of disparate data technologies.
 
 ---
 
