@@ -137,7 +137,7 @@ A model contains both types and the instructions that map between them. The exam
 
 ## Conclusion
 
-<img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="20%" class="limg"/> The mm-ADT virtual machine can integrate any number of heterogeneous processing engines and storage systems into a universally configurable data processing system. This amalgamation is made possible via the construct below which specifies a _type_ (set) and the instructions necessary to manifest its _instances_ (elements) within the mm-ADT address space. Its power comes from the fact that there is no fundamental distinction between a _type_ and an _instance_ in mm-ADT. An instance is simply a type that defines itself.  While `obj` and `inst` may not always be explicitly coupled via `<=`, it is are always there (e.g. via type inferencing). Expressions of this form represents the boundary between structure and process.
+<a href="/"><img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="20%" class="limg"/></a> The mm-ADT virtual machine can integrate any number of heterogeneous processing engines and storage systems into a universally configurable data processing system. This amalgamation is made possible via the construct below which specifies a _type_ (set) and the instructions necessary to manifest its _instances_ (elements) within the mm-ADT address space. Its power comes from the fact that there is no fundamental distinction between a _type_ and an _instance_ in mm-ADT. An instance is simply a type that defines itself.  While `obj` and `inst` may not always be explicitly coupled via `<=`, it is are always there (e.g. via type inferencing). Expressions of this form represents the boundary between structure and process.
 
 ```groovy
 obj <= inst
