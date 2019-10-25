@@ -88,8 +88,8 @@ Maven3-based projects should use <a href="https://creadur.apache.org/rat/">Apach
 #### Product Revenue Distribution
 
 * Only members of the product's project receive distributions.
-* Revenue distribution is determined by a positive `[VOTE]` by the project members.
-  * An example is provided below.
+* Revenue distribution is determined by an average of individually specified distributions.
+  * An example is provided below for a project with 3 members.
 
 |:-----|:-------|:-------|:-------|
 | A    | A[50%] | B[40%] | C[10%] |
