@@ -88,43 +88,43 @@ mmadt> [start,'mar'][plus,'ko']
 
 ## The Embeddings of Model
 
-The mm-ADT virtual machine was designed for cluster computing, where structures are distributed and processes are parallelized across any number of physical machines. The systems that store structures are databases and the engines that process instructions are stream pipelines. The database industry classifies its systems by their [abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type) (ADT). Examples database ADTs include relational, graph, key/value, document, etc. mm-ADT provides a set of _model-ADT embeddings_ that define popular database ADTs in terms of mm-ADT objects. These embeddings are provided to the virtual machine using the `[model]` machine instruction. 
+The mm-ADT virtual machine was designed for cluster computing, where structures are distributed and processes are parallelized across any number of physical machines. The systems that store structures are databases and the engines that process instructions are stream pipelines. The database industry classifies its databases by their [abstract data type](https://en.wikipedia.org/wiki/Abstract_data_type) (ADT). Examples database ADTs include relational, graph, key/value, and document. mm-ADT provides a set of _model-ADT embeddings_ that define popular database ADTs in terms of mm-ADT objects.
 
 ### A Key/Value Store Example
 
-A key/value model-ADT is define below. This model defines 4 types: a key (`k`), a value (`v`), a key/value pair (`kv`), and the store as a whole (`kvstore`). A key is any `obj`, a value is any `obj`, and a key/value pair is a `list` with the first element being a key and the second element being a value. Finally, `kvstore` (which is not coincidentally also the name of the model) is understood as the "root" object of the database and is defined as zero or more key/value pairs. 
+A model-ADT is stored on the virtual machine using `[model]` (a machine instruction). A key/value model-ADT is define below. This model defines 4 types: a key (`k`), a value (`v`), a key/value pair (`kv`), and the store as a whole (`kvstore`). A key is any `obj`, a value is any `obj`, and a key/value pair is a `list` with the first element being a key and the second element being a value. Finally, `kvstore` (which is not coincidentally also the name of the model) is understood as the "root" object of the database and is defined as zero or more key/value pairs. 
 
 ```groovy
 [model,kvstore,
  [define,k,       obj]
  [define,v,       obj]
- [define,kv,      [k,v]]
+ [define,kv,      [k;v]]
  [define,kvstore, kv{*}]]
 ```
 
-A model contains both types and the instructions that map between them. The example above is elaborated upon below with the addition of 4 instruction [rewrite rules](https://en.wikipedia.org/wiki/Rewriting). If a program tries to remove an element of a key/value pair, then an error is thrown. Similarly, if a program tries to change a key/value pair's key, an error is thrown. Next, the stream of zero or more key/value pairs defined by `kvstore` contains no duplicate keys and thus, a `[dedup]` on keys does nothing and thus, as an optimization, a "no-op" is used which simply removes the instruction from the program. Finally, when a new key/value pair is written to the store, a pair with an equivalent key is searched for and updated. If no such key/value pair exists, then the provided key/value pair is added to the stream (i.e. the database). 
+A model contains both types and the instructions that map between them. The example above is elaborated upon below with the addition of 4 instruction [rewrite rules](https://en.wikipedia.org/wiki/Rewriting). If a program tries to remove an element of a key/value pair, then an error is thrown. Similarly, if a program tries to change a key/value pair's key, an error is thrown. Next, the stream of zero or more key/value pairs typed as `kvstore` must never contain duplicate keys and thus, a `[dedup]` on keys yields a rewrite to a "no-op" which simply removes the instruction from the program. Finally, when a new key/value pair is written to the store, a pair with an equivalent key is searched for and updated. If no such key/value pair exists, then the provided key/value pair is added to the stream (i.e. the database). 
 
 ```groovy
 [model,kvstore,
  [define,k,       obj]
  [define,v,       obj]
- [define,kv,      [k,v]
+ [define,kv,      [k;v]
   -> [drop,0|1]           => [error]
   -> [put,0,k]            => [error]]
  [define,kvstore, kv{*}
   -> [dedup,[get,0]]      => 
-  -> [plus,[k~a,v~b]]     => [ifelse,[is,[get,0][eq,a]],
+  -> [plus,[k~a;v~b]]     => [ifelse,[is,[get,0][eq,a]],
                                      [put,1,b],
                                      [plus,[id]]]]]
 ```
 
-The `kvstore` model-ADT defines an abstract data type that must ultimately be physically implemented by a database capable of encoding the requisite structures. The [Apache Ignite](https://ignite.apache.org/) project team develop a distributed key/value database called Ignite. In order for the mm-ADT VM to work over Ignite, a model-ADT must be defined that maps the constructs of Ignite to those of `kvstore` and thus, mm-ADT. The `ignite` model is defined below with they set of possible keys and values are constrained. An `ignite` object extends `kvstore`. If Ignite is configured to sort its key/value pairs in ascending order by key, then a no-op occurs. If the number of key/value pairs is requested by the program, each node in the cluster would linearly iterate its entire key/value pair parition to yield a count reduction. However, if this count can be computed more efficiently by Ignite (in less than `O(n)`), then `[count]` is rewritten to a `[map]` instruction that maps to a single `int`. This `int` is dereferenced using the instructions on the right hand side of the "maps from"-token (`<=`) where, `[=]` is a machine instruction that manages the connection between the VM and its integrated components (e.g. the Ignite cluster). An `[eval]` machine instruction issues an Ignite-specific [remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call) (RPC) that offloads the count calculation from the VM integrated processors to Ignite. The final rewrite rule leverages database indices in an analogous manner to the aforementioned `[count]` rewrite.
+<a href="http://ignite.apache.org"><img src="assets/images/theory/apache-ignite-logo.png" class="rimg" width="35%"/></a> The `kvstore` model-ADT defines an abstract data type that must ultimately be physically implemented by a database capable of encoding the requisite structures and their respective denotational semantics. The [Apache Ignite](https://ignite.apache.org/) project team develops a distributed key/value database called Ignite. In order for the mm-ADT VM to work over Ignite, a model-ADT must be defined that maps the constructs of Ignite to those of `kvstore` and thus, mm-ADT. The `ignite` model is defined below, where the set of possible keys and values are constrained. The `ignite` type extends `kvstore`. If Ignite is configured to sort its key/value pairs in ascending order by key, then a no-op occurs. If the number of key/value pairs is requested by the program, each node in the cluster would linearly iterate its entire key/value pair partition to ultimately compute a distributed count reduction. However, if this count can be computed more efficiently by Ignite (e.g. in less than `O(n)`), then `[count]` is rewritten to a `[map]` instruction that maps the key/value stream to a single `int`. This `int` is dereferenced using the instructions on the right hand side of the _maps from_-token (`<=`), where `[=]` is a machine instruction that manages the connection between the VM and its integrated components (e.g. the Ignite cluster). An `[eval]` machine instruction issues an Ignite-specific [remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call) (RPC) that offloads the count calculation from the VM's integrated processors to Ignite. The final rewrite rule below leverages database indices in an analogous manner to the aforementioned `[count]` rewrite.
 
 ```groovy
 [model,ignite,
  [define,k,      kvstore.k  & (int|str)]
  [define,v,      kvstore.v  & (bool|int|real|str|list)]
- [define,kv,     kvstore.kv & [k,v]]
+ [define,kv,     kvstore.kv & [k;v]]
  [define,ignite, kvstore  <= [eval,'connect',['ip'   :'127.0.0.1',
                                               'port' :10800,
                                               'cache':'example']]
@@ -137,7 +137,7 @@ The `kvstore` model-ADT defines an abstract data type that must ultimately be ph
 
 ## Conclusion
 
-The mm-ADT virtual machine integrates any number of heterogeneous processing engines and storage systems into a universally configurable data processing system. This amalgamation is made possible via the following construct which specifies a _type_ (set) and the instructions necessary to manifest its _instances_ (elements) within the mm-ADT address space. Its power comes from the fact that there is no fundamental distinction between a _type_ and an _instance_ in mm-ADT. An instance is simply a type that defines itself.  While `obj` and `inst` may not always be explicitly coupled via `<=`, they ultimately always are via type inferencing. Expressions of this form represents the boundary between structure and process.
+<img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="20%" class="limg"/> The mm-ADT virtual machine can integrate any number of heterogeneous processing engines and storage systems into a universally configurable data processing system. This amalgamation is made possible via the construct below which specifies a _type_ (set) and the instructions necessary to manifest its _instances_ (elements) within the mm-ADT address space. Its power comes from the fact that there is no fundamental distinction between a _type_ and an _instance_ in mm-ADT. An instance is simply a type that defines itself.  While `obj` and `inst` may not always be explicitly coupled via `<=`, it is are always there (e.g. via type inferencing). Expressions of this form represents the boundary between structure and process.
 
 ```groovy
 obj <= inst
