@@ -19,7 +19,7 @@ From relational to graph query languages, real-time to batch analytics, and from
 
 <a href="assets/images/posters/protect-your-hands.jpg"><img src="assets/images/posters/protect-your-hands.jpg" class="rimg" width="180"/></a> mm-ADT was originally planned for release under the Apache2 free software license. However, after some reflection, it was deemed that free software is perhaps not the best means of distributing technology at this point in time in our industry. In order to create a more responsible relationship between OSS and business, mm-ADT provides a means of compensating open source developers for their efforts at the Apache Software Foundation, Cloud Native Computing Foundation, and other similar OSS foundations. The intention is _not_ to have developers abandon their foundation affiliations, but instead to encourage them to also integrate their projects with mm-ADT. By doing so, their technology is given a commercial outlet, where the revenue generated from product licensing goes directly to the developers.
 
-For more information, please review: <a href="rationale.html">The mm-ADT Rationale</a>.
+For more information, please review: <a href="perspective.html">The mm-ADT Perspective</a>.
 
 ---
 
