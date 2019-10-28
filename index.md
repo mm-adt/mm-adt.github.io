@@ -69,19 +69,6 @@ The mm-ADT virtual machine allows disparate data technologies to coordinate in b
 
 While mm-ADT currently realizes three logical partitions of the data technology space: language, processor, and storage&mdash;once demonstrated viable, each partition may be further divided with, e.g., projects focused on disk-layouts and indexing structures, to projects exploring novel data models and respective language semantics necessary to address the upcoming challenges in our collective pursuit of the nature of structure and process.
 
-## Infrastructure
-[](#infrastructure)
-
-<a href="assets/images/posters/whos-who-in-the-zoo.jpg"><img src="assets/images/posters/whos-who-in-the-zoo.jpg" class="rimg" width="180"/></a>
-
-### Cloud Computing
-
-Cloud computing services make software deployment and licensing easier with pre-configured images and pay-as-you-go billing. An mm-ADT project dedicated to packaging the mm-ADT VM and its associated technologies for use with the major cloud vendors would open mm-ADT projects to new licensing models and income streams. Most importantly, the mm-ADT cloud computing team would benefit from being at the forefront of a potentially large source of revenue.
-
-[Amazon AWS](https://aws.amazon.com): Amazon's cloud computing services.  
-[Google Cloud](https://cloud.google.com/): Google's cloud computing service.  
-[Microsoft Azure](https://azure.microsoft.com/): Microsoft's cloud computing service.  
-
 ---
 
 ## Licensing

@@ -30,7 +30,7 @@ Every `obj` is a _carrier_ in an [algebraic structure](https://en.wikipedia.org/
 | `str`  | synthetic [group](https://en.wikipedia.org/wiki/Group_(mathematics))            | `+`,`-`                 | `0=>''`               |
 | `list` | synthetic [group](https://en.wikipedia.org/wiki/Group_(mathematics))            | `+`,`-`                 | `0=>[]`               |
 | `rec`  | synthetic [group](https://en.wikipedia.org/wiki/Group_(mathematics))            | `+`,`-`                 | `0=>[:]`              |
-| `inst` | a [ring](https://en.wikipedia.org/wiki/Ring_(mathematics)) with unity           | `*`,`+`,`-`,`&`,`|`     | `0=>[none]`,`1=>[id]` |
+| `inst` | [ring](https://en.wikipedia.org/wiki/Ring_(mathematics)) with unity             | `*`,`+`,`-`,`&`,`|`     | `0=>[none]`,`1=>[id]` |
 
 <br/>
 An algebraic structure defines a set of axioms whose entailments yield theorems. In mm-ADT, theorems are used by the virtual machine to perform [type checking](https://en.wikipedia.org/wiki/Type_system#Type_checking), [type inference](https://en.wikipedia.org/wiki/Type_inference), and program optimization. Furthermore, via the constructs of _model-ADTs_ and _embeddings_, different algebraic structures (which ultimately use the same fundamental types as carriers) can be defined and mixed within the same computation. Models specify isolated algebraic environments and rules for moving between them. In the lexicon of [category theory](https://en.wikipedia.org/wiki/Category_theory), models are _categories_ and embeddings are [_functors_](https://en.wikipedia.org/wiki/Functor). Thus, the "default algebraic structures" specified in the table above are understood to be a collection of models denoted `mm`&mdash;the core model-ADT from which all other models are ultimately derived.
@@ -62,7 +62,7 @@ The mm-ADT virtual machine's [instruction set](https://en.wikipedia.org/wiki/Ins
 | `[filter]`   | `X -> X{?}`   | Transform an element of `X` to itself or nothing.                       |
 | `[flatmap]`  | `X -> Y{*}`   | Transform an element of `X` to zero or more elements of `Y`.            |
 | `[reduce]`   | `X{*} -> X`   | Transform zero or more elements of `X` to an element of `X`.            |
-| `[barrier]`  | `X{*} -> Y{*}`| Transform zero or more elements of `X` to zero or more elements of `X`. |
+| `[barrier]`  | `X{*} -> Y{*}`| Transform zero or more elements of `X` to zero or more elements of `Y`. |
 | `[initial]`  | `X{0} -> X`   | Transform nothing to an element of `X`.                                 |
 | `[terminal]` | `X -> X{0}`   | Transform an element of `X` to nothing.                                 |
 
@@ -129,8 +129,8 @@ A model contains both types and the instructions that map between them. The exam
                                               'port' :10800,
                                               'cache':'example']]
   -> [order,[gt,[get,0]]] =>
-  -> [count]              => [map,    int  <=[=ignite][eval,'store-size']]
-  -> [is,[get,0][eq,k~a]] => [flatmap,v{?} <=[=ignite][eval,'idx-query',a]]]]
+  -> [count]              => [map,    int   <=[=ignite][eval,'store-size']]
+  -> [is,[get,0][eq,k~a]] => [flatmap,kv{?} <=[=ignite][eval,'idx-query',a]]]]
 ```
 
 ---
