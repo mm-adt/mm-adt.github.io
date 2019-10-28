@@ -12,7 +12,7 @@ The mm-ADT open source model is an attempt to create a technology-driven, econom
 
 ## Cloud Computing
 
-<a href="assets/images/posters/whos-who-in-the-zoo.jpg"><img src="assets/images/posters/whos-who-in-the-zoo.jpg" class="rimg" width="180"/></a>
+<a href="assets/images/posters/whos-who-in-the-zoo.jpg"><img src="assets/images/posters/whos-who-in-the-zoo.jpg" class="rimg" width="170"/></a>
 Cloud computing services make software deployment and licensing easier with pre-configured images and pay-as-you-go billing. An mm-ADT project dedicated to packaging the mm-ADT VM and its associated technologies for use with the major cloud vendors would open mm-ADT projects to new licensing models and income streams. Most importantly, the mm-ADT cloud computing team would benefit from being at the forefront of a potentially large source of revenue.
 
 [Amazon AWS](https://aws.amazon.com): Amazon's cloud computing services.  
