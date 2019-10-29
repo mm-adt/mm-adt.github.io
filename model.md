@@ -19,7 +19,7 @@ The mm-ADT Open Source Model is currently under development. When a stable worki
 
 ---
 
-mm-ADT&#8482; is composed of professional developers collaborating on and across any number of self-governed, open source projects. Project members define, develop, support, and market their projects' products. Revenue is generated from product licensing. {{ page.member_distro }} of a product's revenue is evenly distributed amongst the project members. The remaining {{ page.partner_distro }} is equally distributed amongst all mm-ADT partners. 
+<img src="assets/images/mm-adt-logo.png" alt="mm-ADT" width="18%" class="limg"/> mm-ADT&#8482; is composed of professional developers collaborating on and across any number of self-governed, open source projects. Project members define, develop, support, and market their projects' products. Revenue is generated from product licensing. {{ page.member_distro }} of a product's revenue is evenly distributed amongst the project members. The remaining {{ page.partner_distro }} is equally distributed amongst all mm-ADT partners. 
 
 --- 
 
