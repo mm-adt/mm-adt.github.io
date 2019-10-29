@@ -17,9 +17,5 @@ Cloud computing services make software deployment and licensing easier with pre-
 
 [Amazon AWS](https://aws.amazon.com): Amazon's cloud computing services.  
 [Google Cloud](https://cloud.google.com/): Google's cloud computing service.  
-[Microsoft Azure](https://azure.microsoft.com/): Microsoft's cloud computing service.  
-
-## Accounting
-
-...
+[Microsoft Azure](https://azure.microsoft.com/): Microsoft's cloud computing service.
 
