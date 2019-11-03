@@ -113,9 +113,9 @@ A model contains both types and the instructions that map between them. The exam
   -> [put,0,k]            => [error]]
  [define,kvstore, kv{*}
   -> [dedup,[get,0]]      => 
-  -> [plus,[k~a;v~b]]     => [ifelse,[is,[get,0][eq,a]],
-                                     [put,1,b],
-                                     [plus,[id]]]]]
+  -> [plus,[k~a;v~b]]     => [coalesce,
+                               [is,[get,0][eq,a]][put,1,b],
+                               [plus,[id]]]]]
 ```
 
 <a href="http://ignite.apache.org"><img src="assets/images/theory/apache-ignite-logo.png" class="rimg" width="35%"/></a> The `kvstore` model-ADT defines an abstract data type that must ultimately be physically implemented by a database capable of encoding the requisite structures and their respective denotational semantics. The [Apache Ignite](https://ignite.apache.org/) project team develops a distributed key/value database called Ignite. In order for the mm-ADT VM to work over Ignite, a model-ADT must be defined that maps the constructs of Ignite to those of `kvstore` and thus, mm-ADT. The `ignite` model is defined below, where the set of possible keys and values are constrained. The `ignite` type extends `kvstore`. If Ignite is configured to sort its key/value pairs in ascending order by key, then a no-op occurs. If the number of key/value pairs is requested via `[count]`, each node in the cluster will linearly iterate its entire key/value pair partition to compute a distributed count reduction. However, if this count can be computed more efficiently by Ignite (e.g. in less than `O(n)`), then `[count]` is rewritten to a `[map]` instruction that transforms the key/value stream (as a whole) to a single `int`. This `int` is dereferenced using the instructions on the right hand side of the _maps from_-token (`<=`), where `[=]` is a machine instruction that manages the connection between the VM and its integrated components (e.g. the Ignite cluster). An `[eval]` machine instruction issues an Ignite-specific [remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call) (RPC) that offloads the count calculation from the VM's integrated processors to Ignite. Finally, the last rewrite rule below leverages database indices in an analogous manner to the aforementioned `[count]` rewrite.
@@ -129,8 +129,8 @@ A model contains both types and the instructions that map between them. The exam
                                               'port' :10800,
                                               'cache':'example']]
   -> [order,[gt,[get,0]]] =>
-  -> [count]              => [map,    int   <=[=ignite][eval,'store-size']]
-  -> [is,[get,0][eq,k~a]] => [flatmap,kv{?} <=[=ignite][eval,'idx-query',a]]]]
+  -> [count]              => [map, int   <=[=ignite][eval,'store-size']]
+  -> [is,[get,0][eq,k~a]] => [map, kv{?} <=[=ignite][eval,'idx-query',a]]]]
 ```
 
 ---
