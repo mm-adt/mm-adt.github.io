@@ -71,6 +71,17 @@ While mm-ADT currently realizes three logical partitions of the data technology 
 
 ---
 
+## Cloud Computing
+
+<a href="assets/images/posters/whos-who-in-the-zoo.jpg"><img src="assets/images/posters/whos-who-in-the-zoo.jpg" class="rimg" width="170"/></a>
+Cloud computing services make software deployment and licensing easier with pre-configured images and pay-as-you-go billing. An mm-ADT project dedicated to packaging the mm-ADT VM and its associated technologies for use with the major cloud vendors would open mm-ADT projects to new licensing models and income streams. Most importantly, the mm-ADT cloud computing team would benefit from being at the forefront of a potentially large source of revenue.
+
+[Amazon AWS](https://aws.amazon.com): Amazon's cloud computing services.  
+[Google Cloud](https://cloud.google.com/): Google's cloud computing service.  
+[Microsoft Azure](https://azure.microsoft.com/): Microsoft's cloud computing service.
+
+---
+
 ## Licensing
 
 mm-ADT is dual licensed: [AGPL3](https://www.gnu.org/licenses/agpl-3.0.txt) and a commercial license through [RReduX,Inc](http://rredux.com). 
