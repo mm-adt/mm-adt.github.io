@@ -23,6 +23,7 @@ layout: default
 |`lst` |`[;]`   |`[obj;obj]`|`lst  | [;] | [obj(;obj)*)]` |
 |`inst`|`[none]`|`[id]`     |`inst | [str(,obj)*]`        |
 
+
 <br/>
 
 ### mm-ADT Obj Modifiers
@@ -60,4 +61,25 @@ mmlang> person~['name':'marko','age':int]{1,10} <=[=db][get,'users'][is,[get,'na
 ---
 
 ## Syntactic Sugar
+
+### mm-lang Operators
+
+There are unary and binary operators. Every unary operator token can be used as a binary operator.
+
+| token | name  | unary                | binary                              |
+|:------|:------|:---------------------|:------------------------------------|
+| `+`   | plus  | `+2  = [plus,2]`     | `1+2      = [start,1][plus,2]`      |
+| `-`   | minus | `-2  = [map,2][neg]` | `1-2      = [start,1][minus,2]`     |
+| `*`   | mult  | `*2  = [mult,2]`     | `1*2      = [start,1][mult,2]`      |
+| `/`   | div   | `/2  = [div,2]`      | `1/2      = [start,1][div,2]`       |
+| `>`   | gt    | `>2  = [gt,2]`       | `1>2      = [start,1][gt,2]`        |
+| `<`   | lt    | `<2  = [lt,2]`       | `1<2      = [start,1][lt,2]`        |
+| `>=`  | gte   | `>=2 = [gte,2]`      | `1>=2     = [start,1][gte,2]`       |
+| `=<`  | lte   | `=<2 = [lte,2]`      | `1=<2     = [start,1][lte,2]`       |
+| `==`  | eq    | `==2 = [eq,2]`       | `1==2     = [start,1][eq,2]`        |
+| `=>`  | as    | `=>2 = [as,2]`       | `1=>1     = [start,1][as,2]`        |
+| `<-`  | get   | `<-2 = [get,2]`      | `[2:3]<-2 = [start,[2:3]][get,2]`   |
+| `->`  | put   | N/A                  | `1->2     = [start,[:]][put,1,2]`   |
+| `<=`  | ref   | N/A                  | `1<=[a]   = [a][as,1]`              |
+
 
